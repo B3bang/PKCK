@@ -1,0 +1,410 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/css' href='zad1.css'?>
+<!DOCTYPE płytoteka SYSTEM 'zad1.dtd'>
+
+<Płytoteka>
+	<Informacje>
+        <Nazwa>Płytoteka</Nazwa>
+        <Autor id="_207230">
+            <Imię-i-nazwisko>Bartosz Goss</Imię-i-nazwisko>
+        </Autor>
+        <Ostatnia-modyfikacja dzień="28" miesiąc="marca" rok="2019" Autor="_207230"/>
+    </Informacje>
+  <Gatunki-muzyki>
+    <Nazwa>METAL</Nazwa>
+    <Albumy>
+      <Album Nazwa-albumu="Kill'em All">
+        <Zespół Wykonawca="Metallica">
+          <Członek>
+            <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+	<Data-wydania dzień="25" miesiąc="lipca" rok="1983"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">28.99</Cena>
+		<Cena waluta="USD">9.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Ride the Lightning">
+        <Zespół Wykonawca="Metallica">
+          <Członek>
+            <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="27" miesiąc="lipca" rok="1984"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">30.99</Cena>
+		<Cena waluta="USD">9.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Master of Puppets">
+        <Zespół Wykonawca="Metallica">
+          <Członek>
+            <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="03" miesiąc="marca" rok="1986"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">30.99</Cena>
+		<Cena waluta="USD">9.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Countdown to Extinction">
+        <Zespół Wykonawca="Megadeth">
+          <Członek>
+            <Imię-i-nazwisko>Dave Mustaine</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>David Ellefson</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Marty Friedman</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Nick Menza</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="14" miesiąc="lipca" rok="1992"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">35.99</Cena>
+		<Cena waluta="USD">9.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Rust in Peace">
+        <Zespół Wykonawca="Megadeth">
+          <Członek>
+            <Imię-i-nazwisko>Dave Mustaine</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>David Ellefson</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Marty Friedman</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Nick Menza</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="24" miesiąc="września" rok="1990"/>
+        <Nagradzana nagroda="PlatynowaPłyta"></Nagradzana>
+		<Cena waluta="PLN">24.99</Cena>
+		<Cena waluta="USD">8.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Paranoid">
+        <Zespół Wykonawca="Black Sabbath">
+          <Członek>
+            <Imię-i-nazwisko>Ozzy Osbourne</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Tony Iommi</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Geezer Butler</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="18" miesiąc="września" rok="1970"/>
+        <Nagradzana nagroda="ZłotaPłyta"/>
+		<Cena waluta="PLN">27.99</Cena>
+		<Cena waluta="USD">8.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Masters of Reality">
+        <Zespół Wykonawca="Black Sabbath">
+          <Członek>
+            <Imię-i-nazwisko>Ozzy Osbourne</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Tony Iommi</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Geezer Butler</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="21" miesiąc="lipca" rok="1971"/>
+        <Nagradzana nagroda="ZłotaPłyta"/>
+		<Cena waluta="PLN">25.99</Cena>
+		<Cena waluta="USD">8.99</Cena>
+      </Album>
+    </Albumy>
+  </Gatunki-muzyki>
+  <Gatunki-muzyki>
+    <Nazwa>POP</Nazwa>
+    <Albumy>
+      <Album Nazwa-albumu="1989">
+        <Zespół Wykonawca="Taylor Swift" />
+        <Data-wydania dzień="27" miesiąc="października" rok="2014"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">23.99</Cena>
+		<Cena waluta="USD">8.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Thriller">
+        <Zespół Wykonawca="Michael Jackson" />
+        <Data-wydania dzień="30" miesiąc="listopada" rok="1982"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>   
+		<Cena waluta="PLN">29.98</Cena>	
+		<Cena waluta="USD">9.70</Cena>		
+      </Album>
+      <Album Nazwa-albumu="Bad">
+        <Zespół Wykonawca="Michael Jackson" />
+		<Data-wydania dzień="31" miesiąc="sierpnia" rok="1987"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">33.70</Cena>
+		<Cena waluta="USD">11.70</Cena>
+      </Album>
+    </Albumy>
+  </Gatunki-muzyki>
+  <Gatunki-muzyki>
+    <Nazwa>ROCK</Nazwa>
+    <Albumy>
+      <Album Nazwa-albumu="Foo Fighters">
+        <Zespół Wykonawca="Foo Fighters">
+          <Członek>
+            <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="07" miesiąc="lipca" rok="1995"/>
+        <Nagradzana nagroda="ZłotaPłyta"/> 
+		<Cena waluta="PLN">30.99</Cena>
+		<Cena waluta="USD">10.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Sonic Highways">
+        <Zespół Wykonawca="Foo Fighters">
+          <Członek>
+            <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="10" miesiąc="listopada" rok="2014"/>
+        <Nagradzana nagroda="ZłotaPłyta"/>
+		<Cena waluta="PLN">32.99</Cena>
+		<Cena waluta="USD">12.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Concrete and Gold">
+        <Zespół Wykonawca="Foo Fighters">
+          <Członek>
+            <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="15" miesiąc="września" rok="2017"/>
+        <Nagradzana nagroda="ZłotaPłyta"/>   
+		<Cena waluta="PLN">31.99</Cena>
+		<Cena waluta="USD">11.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Queen">
+        <Zespół Wykonawca="Queen">
+          <Członek>
+            <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="13" miesiąc="lipca" rok="1973"/>
+        <Nagradzana nagroda="Brak"/>
+		<Cena waluta="PLN">29.99</Cena>
+		<Cena waluta="USD">9.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="The Game">
+        <Zespół Wykonawca="Queen">
+          <Członek>
+            <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="27" miesiąc="lipca" rok="1980"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">29.99</Cena>
+		<Cena waluta="USD">9.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Innuendo">
+        <Zespół Wykonawca="Queen">
+          <Członek>
+            <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="05" miesiąc="lutego" rok="1991"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">22.99</Cena>
+		<Cena waluta="USD">7.99</Cena>
+      </Album>
+    </Albumy>
+  </Gatunki-muzyki>
+  <Gatunki-muzyki>
+    <Nazwa>RAP</Nazwa>
+    <Albumy>
+      <Album Nazwa-albumu="The Slim Shady LP">
+        <Zespół Wykonawca="Eminem">
+          <Członek>
+            <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="23" miesiąc="lutego" rok="1999"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">24.99</Cena>
+		<Cena waluta="USD">8.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="The Eminem Show">
+        <Zespół Wykonawca="Eminem">
+          <Członek>
+            <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="26" miesiąc="maja" rok="2002"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">23.99</Cena>
+		<Cena waluta="USD">8.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Revival">
+        <Zespół Wykonawca="Eminem">
+          <Członek>
+            <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="15" miesiąc="grudnia" rok="2017"/>
+        <Nagradzana nagroda="ZłotaPłyta"/>
+		<Cena waluta="PLN">35.99</Cena>
+		<Cena waluta="USD">10.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="Kamikaze">
+        <Zespół Wykonawca="Eminem">
+          <Członek>
+            <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="31" miesiąc="sierpnia" rok="2018"/>
+        <Nagradzana nagroda="PlatynowaPłyta"/>
+		<Cena waluta="PLN">20.99</Cena>
+		<Cena waluta="USD">6.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="No Mercy, No Fear">
+        <Zespół Wykonawca="G-Unit">
+          <Członek>
+            <Imię-i-nazwisko>50 Cent</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Tony Yayo</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Uncle Murda</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Lloyd Banks</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="01" miesiąc="sierpnia" rok="2002"/>
+        <Nagradzana nagroda="Brak"/>
+		<Cena waluta="PLN">15.99</Cena>
+		<Cena waluta="USD">4.99</Cena>
+      </Album>
+      <Album Nazwa-albumu="God's Plan">
+        <Zespół Wykonawca="G-Unit">
+          <Członek>
+            <Imię-i-nazwisko>50 Cent</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Tony Yayo</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Uncle Murda</Imię-i-nazwisko>
+          </Członek>
+          <Członek>
+            <Imię-i-nazwisko>Lloyd Banks</Imię-i-nazwisko>
+          </Członek>
+        </Zespół>
+        <Data-wydania dzień="01" miesiąc="listopada" rok="2002"/>
+        <Nagradzana nagroda="Brak"/>
+		<Cena waluta="PLN">15.99</Cena>
+		<Cena waluta="USD">4.99</Cena>
+      </Album>
+    </Albumy>
+  </Gatunki-muzyki>
+</Płytoteka>
