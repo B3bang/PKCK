@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/zad1" 
+elementFormDefault="qualified" 
+xmlns:mojNamespace="https://www.github.com/B3bang"
+targetNamespace="https://www.github.com/B3bang"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:attributeGroup name="daty">
+		<xs:attribute name="dzień">
+			<xs:simpleType>
+				<xs:restriction base="xs:integer">
+					<xs:minInclusive value="1"/>
+					<xs:maxInclusive value="31"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="miesiąc">
+			<xs:simpleType>
+				<xs:restriction base="xs:token">
+					<xs:enumeration value="stycznia" />
+					<xs:enumeration value="lutego" />
+					<xs:enumeration value="marca" />
+					<xs:enumeration value="kwietnia" />
+					<xs:enumeration value="maja" />
+					<xs:enumeration value="czerwca" />
+					<xs:enumeration value="lipca" />
+					<xs:enumeration value="sierpnia" />
+					<xs:enumeration value="września" />
+					<xs:enumeration value="października" />
+					<xs:enumeration value="listopada" />
+					<xs:enumeration value="grudnia" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>	
+		<xs:attribute name="rok" type="xs:gYear"/>
+	</xs:attributeGroup>
+	<xs:element name="Płytoteka" type="mojNamespace:Typ-Płytoteka"/>
+	<xs:complexType name="Typ-Płytoteka">
+      <xs:sequence>
+        <xs:element name="Informacje" type="mojNamespace:Typ-Informacje"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" name="Gatunki-muzyki" type="mojNamespace:Typ-Gatunki-muzyki"/>
+      </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="Typ-Informacje">
+      <xs:sequence>
+        <xs:element name="Nazwa" type="xs:string"/>
+        <xs:element name="Autor" type="mojNamespace:Typ-Autor"/>
+        <xs:element name="Ostatnia-modyfikacja" type="mojNamespace:Typ-Ostatnia-modyfikacja"/>
+      </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="Typ-Autor">
+		<xs:sequence>
+			<xs:element name="Imię-i-nazwisko" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="id" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:ID">
+					<xs:pattern value="_{1}[0-9]{6}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+    </xs:complexType>
+	<xs:complexType name="Typ-Ostatnia-modyfikacja">
+			<xs:attributeGroup ref="mojNamespace:daty"/>
+			<xs:attribute name="Autor" type="xs:IDREF"/>
+	</xs:complexType>
+	<xs:complexType name="Typ-Gatunki-muzyki">
+		<xs:sequence>
+			<xs:element name="Nazwa" type="xs:string"/>
+			<xs:element name="Albumy" type="mojNamespace:Typ-Albumy"/>
+		</xs:sequence>
+	</xs:complexType>
+    <xs:complexType name="Typ-Albumy">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="Album" type="mojNamespace:Typ-Album"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:group name="Grupa-Album">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Zespół" type="mojNamespace:Typ-Zespół" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Data-wydania" type="mojNamespace:Typ-Data-wydania" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Nagradzana" type="mojNamespace:Typ-Nagradzana"/>
+			<xs:element minOccurs="2" maxOccurs="2" name="Cena" type="mojNamespace:Typ-Cena" />
+      </xs:sequence>
+	</xs:group>
+	<xs:complexType name="Typ-Album">
+      <xs:sequence>
+        <xs:group ref="mojNamespace:Grupa-Album" />
+      </xs:sequence>
+      <xs:attribute name="Nazwa-albumu" type="xs:string" use="required" />
+    </xs:complexType>
+	<xs:complexType name="Typ-Zespół">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Członek" type="mojNamespace:Typ-Członek" />
+		</xs:sequence>
+		<xs:attribute name="Wykonawca" type="xs:string" use="required" />
+    </xs:complexType>
+	<xs:complexType name="Typ-Członek">
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="Imię-i-nazwisko" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="Typ-Data-wydania">
+		<xs:attributeGroup ref="mojNamespace:daty"/>
+    </xs:complexType>
+	<xs:complexType name="Typ-Nagradzana">
+		<xs:attribute default="Brak" name="nagroda">
+            <xs:simpleType>
+				<xs:restriction base="xs:token">
+					<xs:enumeration value="PlatynowaPłyta" />
+					<xs:enumeration value="ZłotaPłyta" />
+					<xs:enumeration value="Brak" />
+				</xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+	<xs:simpleType name="CenaPoPrzecinku">
+		<xs:restriction base="xs:decimal">
+			<xs:fractionDigits value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Typ-Cena">
+		<xs:simpleContent>
+			<xs:extension base="mojNamespace:CenaPoPrzecinku">
+				<xs:attribute name="waluta">
+					<xs:simpleType>
+						<xs:restriction base="xs:token">
+							<xs:enumeration value="USD" />
+							<xs:enumeration value="PLN" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>
