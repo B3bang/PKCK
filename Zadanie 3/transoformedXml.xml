@@ -1,576 +1,576 @@
-<Płytoteka>
-   <Informacje>
-      <Nazwa>Płytoteka</Nazwa>
-      <Autorzy>
-         <Autor>
+<płytoteka>
+   <informacje>
+      <nazwa>płytoteka</nazwa>
+      <autorzy>
+         <autor>
             <Indeks>207230</Indeks>
-            <Imię-i-nazwisko>Bartosz Goss</Imię-i-nazwisko>
-         </Autor>
-         <Autor>
+            <imię-i-nazwisko>Bartosz Goss</imię-i-nazwisko>
+         </autor>
+         <autor>
             <Indeks>210203</Indeks>
-            <Imię-i-nazwisko>Piotr Janicki</Imię-i-nazwisko>
-         </Autor>
-      </Autorzy>
-      <Ostatnia-modyfikacja dzień="03" miesiąc="maja" rok="2019" Autor="_210203"/>
-   </Informacje>
-   <Albumy>
-      <Album>
-         <Wykonawca>Metallica</Wykonawca>
-         <Nazwa-albumu>Kill'em All</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+            <imię-i-nazwisko>Piotr Janicki</imię-i-nazwisko>
+         </autor>
+      </autorzy>
+      <Ostatnia-modyfikacja dzień="03" miesiąc="maja" rok="2019" autor="_210203"/>
+   </informacje>
+   <albumy>
+      <album>
+         <wykonawca>Metallica</wykonawca>
+         <nazwa-albumu>Kill'em All</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>James Hetfield</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Kirk Hammet</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Cliff Burton</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Lars Ulrich</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Jason Newsted</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>28.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Metallica</Wykonawca>
-         <Nazwa-albumu>Ride the Lightning</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Metallica</wykonawca>
+         <nazwa-albumu>Ride the Lightning</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>James Hetfield</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Kirk Hammet</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Cliff Burton</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Lars Ulrich</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Jason Newsted</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>30.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Metallica</Wykonawca>
-         <Nazwa-albumu>Master of Puppets</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Metallica</wykonawca>
+         <nazwa-albumu>Master of Puppets</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>James Hetfield</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Kirk Hammet</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Cliff Burton</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Lars Ulrich</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Jason Newsted</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>30.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Megadeth</Wykonawca>
-         <Nazwa-albumu>Countdown to Extinction</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Dave Mustaine</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>David Ellefson</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Marty Friedman</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Nick Menza</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Megadeth</wykonawca>
+         <nazwa-albumu>Countdown to Extinction</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Dave Mustaine</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>David Ellefson</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Marty Friedman</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Nick Menza</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>35.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Megadeth</Wykonawca>
-         <Nazwa-albumu>Rust in Peace</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Dave Mustaine</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>David Ellefson</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Marty Friedman</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Nick Menza</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Megadeth</wykonawca>
+         <nazwa-albumu>Rust in Peace</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Dave Mustaine</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>David Ellefson</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Marty Friedman</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Nick Menza</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>24.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>8.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Black Sabbath</Wykonawca>
-         <Nazwa-albumu>Paranoid</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Ozzy Osbourne</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Tony Iommi</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Geezer Butler</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Black Sabbath</wykonawca>
+         <nazwa-albumu>Paranoid</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Ozzy Osbourne</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Tony Iommi</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Geezer Butler</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>27.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>8.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Black Sabbath</Wykonawca>
-         <Nazwa-albumu>Masters of Reality</Nazwa-albumu>
-         <Gatunek-albumu>Metal</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Ozzy Osbourne</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Tony Iommi</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Geezer Butler</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Black Sabbath</wykonawca>
+         <nazwa-albumu>Masters of Reality</nazwa-albumu>
+         <gatunek-albumu>Metal</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Ozzy Osbourne</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Tony Iommi</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Geezer Butler</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>25.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>8.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Taylor Swift</Wykonawca>
-         <Nazwa-albumu>1989</Nazwa-albumu>
-         <Gatunek-albumu>Pop</Gatunek-albumu>
-         <Zespół/>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Taylor Swift</wykonawca>
+         <nazwa-albumu>1989</nazwa-albumu>
+         <gatunek-albumu>Pop</gatunek-albumu>
+         <zespół/>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>23.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>8.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Michael Jackson</Wykonawca>
-         <Nazwa-albumu>Thriller</Nazwa-albumu>
-         <Gatunek-albumu>Pop</Gatunek-albumu>
-         <Zespół/>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Michael Jackson</wykonawca>
+         <nazwa-albumu>Thriller</nazwa-albumu>
+         <gatunek-albumu>Pop</gatunek-albumu>
+         <zespół/>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>29.98</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.70</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Michael Jackson</Wykonawca>
-         <Nazwa-albumu>Bad</Nazwa-albumu>
-         <Gatunek-albumu>Pop</Gatunek-albumu>
-         <Zespół/>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Michael Jackson</wykonawca>
+         <nazwa-albumu>Bad</nazwa-albumu>
+         <gatunek-albumu>Pop</gatunek-albumu>
+         <zespół/>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>33.70</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>11.70</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Foo Fighters</Wykonawca>
-         <Nazwa-albumu>Foo Fighters</Nazwa-albumu>
-         <Gatunek-albumu>Rock</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Foo Fighters</wykonawca>
+         <nazwa-albumu>Foo Fighters</nazwa-albumu>
+         <gatunek-albumu>Rock</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Dave Grohl</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Nate Mendel</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Pat Smear</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Taylor Hawkins</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Chris Shiflett</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>30.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>10.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Foo Fighters</Wykonawca>
-         <Nazwa-albumu>Sonic Highways</Nazwa-albumu>
-         <Gatunek-albumu>Rock</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Foo Fighters</wykonawca>
+         <nazwa-albumu>Sonic Highways</nazwa-albumu>
+         <gatunek-albumu>Rock</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Dave Grohl</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Nate Mendel</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Pat Smear</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Taylor Hawkins</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Chris Shiflett</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>32.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>12.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Foo Fighters</Wykonawca>
-         <Nazwa-albumu>Concrete and Gold</Nazwa-albumu>
-         <Gatunek-albumu>Rock</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Foo Fighters</wykonawca>
+         <nazwa-albumu>Concrete and Gold</nazwa-albumu>
+         <gatunek-albumu>Rock</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Dave Grohl</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Nate Mendel</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Pat Smear</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Taylor Hawkins</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Chris Shiflett</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>31.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>11.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Queen</Wykonawca>
-         <Nazwa-albumu>Queen</Nazwa-albumu>
-         <Gatunek-albumu>Rock</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Queen</wykonawca>
+         <nazwa-albumu>Queen</nazwa-albumu>
+         <gatunek-albumu>Rock</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Freddie Mercury</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Roger Taylor</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Brian May</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>John Deacon</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>29.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Queen</Wykonawca>
-         <Nazwa-albumu>The Game</Nazwa-albumu>
-         <Gatunek-albumu>Rock</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Queen</wykonawca>
+         <nazwa-albumu>The Game</nazwa-albumu>
+         <gatunek-albumu>Rock</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Freddie Mercury</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Roger Taylor</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Brian May</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>John Deacon</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>29.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>9.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Queen</Wykonawca>
-         <Nazwa-albumu>Innuendo</Nazwa-albumu>
-         <Gatunek-albumu>Rock</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Queen</wykonawca>
+         <nazwa-albumu>Innuendo</nazwa-albumu>
+         <gatunek-albumu>Rock</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Freddie Mercury</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Roger Taylor</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Brian May</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>John Deacon</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>22.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>7.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Eminem</Wykonawca>
-         <Nazwa-albumu>The Slim Shady LP</Nazwa-albumu>
-         <Gatunek-albumu>Rap</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Eminem</wykonawca>
+         <nazwa-albumu>The Slim Shady LP</nazwa-albumu>
+         <gatunek-albumu>Rap</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Marshall Mathers</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>24.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>8.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Eminem</Wykonawca>
-         <Nazwa-albumu>The Eminem Show</Nazwa-albumu>
-         <Gatunek-albumu>Rap</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Eminem</wykonawca>
+         <nazwa-albumu>The Eminem Show</nazwa-albumu>
+         <gatunek-albumu>Rap</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Marshall Mathers</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>23.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>8.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Eminem</Wykonawca>
-         <Nazwa-albumu>Revival</Nazwa-albumu>
-         <Gatunek-albumu>Rap</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Eminem</wykonawca>
+         <nazwa-albumu>Revival</nazwa-albumu>
+         <gatunek-albumu>Rap</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Marshall Mathers</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>35.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>10.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>Eminem</Wykonawca>
-         <Nazwa-albumu>Kamikaze</Nazwa-albumu>
-         <Gatunek-albumu>Rap</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>Eminem</wykonawca>
+         <nazwa-albumu>Kamikaze</nazwa-albumu>
+         <gatunek-albumu>Rap</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>Marshall Mathers</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>20.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>6.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>G-Unit</Wykonawca>
-         <Nazwa-albumu>No Mercy, No Fear</Nazwa-albumu>
-         <Gatunek-albumu>Rap</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>50 Cent</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Tony Yayo</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Uncle Murda</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Lloyd Banks</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>G-Unit</wykonawca>
+         <nazwa-albumu>No Mercy, No Fear</nazwa-albumu>
+         <gatunek-albumu>Rap</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>50 Cent</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Tony Yayo</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Uncle Murda</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Lloyd Banks</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>15.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>4.99</Kwota>
-         </Cena>
-      </Album>
-      <Album>
-         <Wykonawca>G-Unit</Wykonawca>
-         <Nazwa-albumu>God's Plan</Nazwa-albumu>
-         <Gatunek-albumu>Rap</Gatunek-albumu>
-         <Zespół>
-            <Członek>
-               <Imię-i-nazwisko>50 Cent</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Tony Yayo</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Uncle Murda</Imię-i-nazwisko>
-            </Członek>
-            <Członek>
-               <Imię-i-nazwisko>Lloyd Banks</Imię-i-nazwisko>
-            </Członek>
-         </Zespół>
-         <Cena>
+         </cena>
+      </album>
+      <album>
+         <wykonawca>G-Unit</wykonawca>
+         <nazwa-albumu>God's Plan</nazwa-albumu>
+         <gatunek-albumu>Rap</gatunek-albumu>
+         <zespół>
+            <członek>
+               <imię-i-nazwisko>50 Cent</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Tony Yayo</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Uncle Murda</imię-i-nazwisko>
+            </członek>
+            <członek>
+               <imię-i-nazwisko>Lloyd Banks</imię-i-nazwisko>
+            </członek>
+         </zespół>
+         <cena>
             <Waluta waluta="PLN"/>
             <Kwota>15.99</Kwota>
-         </Cena>
-         <Cena>
+         </cena>
+         <cena>
             <Waluta waluta="USD"/>
             <Kwota>4.99</Kwota>
-         </Cena>
-      </Album>
-   </Albumy>
-   <Gatunki-muzyki>
-      <Gatunek>
-         <Nazwa-gatunku>Metal</Nazwa-gatunku>
-         <Czas-powstania>Lata 60.</Czas-powstania>
-      </Gatunek>
-      <Gatunek>
-         <Nazwa-gatunku>Pop</Nazwa-gatunku>
-         <Czas-powstania>Lata 60.</Czas-powstania>
-      </Gatunek>
-      <Gatunek>
-         <Nazwa-gatunku>Rock</Nazwa-gatunku>
-         <Czas-powstania>Lata 40.</Czas-powstania>
-      </Gatunek>
-      <Gatunek>
-         <Nazwa-gatunku>Rap</Nazwa-gatunku>
-         <Czas-powstania>Lata 70.</Czas-powstania>
-      </Gatunek>
-   </Gatunki-muzyki>
-   <Podsumowanie>
-   <Liczba-płyt>22</Liczba-płyt>
-   <Liczba-płyt-metal>7</Liczba-płyt-metal>
-   <Liczba-płyt-pop>3</Liczba-płyt-pop>
-   <Liczba-płyt-rock>6</Liczba-płyt-rock>
-   <Liczba-płyt-rap>6</Liczba-płyt-rap>
-   <Cena-kolekcji-PLN>610.48</Cena-kolekcji-PLN>
-   <Cena-kolekcji-USD>207.20</Cena-kolekcji-USD>
-</Podsumowanie>
-</Płytoteka>
+         </cena>
+      </album>
+   </albumy>
+   <gatunki-muzyki>
+      <gatunek>
+         <nazwa-gatunku>Metal</nazwa-gatunku>
+         <czas-powstania>Lata 60.</czas-powstania>
+      </gatunek>
+      <gatunek>
+         <nazwa-gatunku>Pop</nazwa-gatunku>
+         <czas-powstania>Lata 60.</czas-powstania>
+      </gatunek>
+      <gatunek>
+         <nazwa-gatunku>Rock</nazwa-gatunku>
+         <czas-powstania>Lata 40.</czas-powstania>
+      </gatunek>
+      <gatunek>
+         <nazwa-gatunku>Rap</nazwa-gatunku>
+         <czas-powstania>Lata 70.</czas-powstania>
+      </gatunek>
+   </gatunki-muzyki>
+   <podsumowanie>
+      <Liczba-płyt>22</Liczba-płyt>
+      <Liczba-płyt-metal>7</Liczba-płyt-metal>
+      <Liczba-płyt-pop>3</Liczba-płyt-pop>
+      <Liczba-płyt-rock>6</Liczba-płyt-rock>
+      <Liczba-płyt-rap>6</Liczba-płyt-rap>
+      <cena-kolekcji-PLN>610.48</cena-kolekcji-PLN>
+      <cena-kolekcji-USD>207.20</cena-kolekcji-USD>
+   </podsumowanie>
+</płytoteka>
