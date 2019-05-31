@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="950" width="1300">
+<rect fill="#EDF5E1" height="900" width="950" y="50" x="15"/>
+<text y="770" x="30">0</text>
+<text y="740" x="30">1</text>
+<text y="710" x="30">2</text>
+<text y="680" x="30">3</text>
+<text y="650" x="30">4</text>
+<text y="620" x="30">5</text>
+<text y="590" x="30">6</text>
+<text y="560" x="30">7</text>
+<text y="530" x="30">8</text>
+<text y="500" x="30">9</text>
+<text y="470" x="30">10</text>
+<text y="440" x="30">11</text>
+<text y="410" x="30">12</text>
+<text y="380" x="30">13</text>
+<text y="350" x="30">14</text>
+<text y="320" x="30">15</text>
+<text y="290" x="30">16</text>
+<text y="260" x="30">17</text>
+<text y="230" x="30">18</text>
+<text y="200" x="30">19</text>
+<text y="170" x="30">20</text>
+<text y="140" x="30">21</text>
+<text y="110" x="30">22</text>
+<line stroke-dasharray="5,5" stroke="black" y2="770" y1="770" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="740" y1="740" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="710" y1="710" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="680" y1="680" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="650" y1="650" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="620" y1="620" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="590" y1="590" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="560" y1="560" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="530" y1="530" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="500" y1="500" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="470" y1="470" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="440" y1="440" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="410" y1="410" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="380" y1="380" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="350" y1="350" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="320" y1="320" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="290" y1="290" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="260" y1="260" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="230" y1="230" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="200" y1="200" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="170" y1="170" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="140" y1="140" x2="933" x1="60"/>
+<line stroke-dasharray="5,5" stroke="black" y2="110" y1="110" x2="933" x1="60"/>
+<text y="800" x="95">
+                Liczba płyt
+            </text>
+<svg overflow="visible" width="-200" height="-770" y="771" x="180">
+<rect transform="rotate(180)" width="100" height="660" y="0" x="0" fill="&#10;&#9;&#9;&#9;&#9;#5CDB95&#10;&#9;&#9;&#9;">
+<animate begin="0" dur="6.6" to="660" from="0" attributeName="height" id="anim22"/>
+</rect>
+</svg>
+<text y="800" x="230">
+                Liczba płyt metal
+            </text>
+<svg overflow="visible" width="-200" height="-770" y="771" x="330">
+<rect transform="rotate(180)" width="100" height="210" y="0" x="0" fill="&#10;&#9;&#9;&#9;&#9;#AA00FF&#10;&#9;&#9;&#9;">
+<animate begin="0" dur="2.1" to="210" from="0" attributeName="height" id="anim7"/>
+</rect>
+</svg>
+<text y="800" x="380">
+                Liczba płyt pop
+            </text>
+<svg overflow="visible" width="-200" height="-770" y="771" x="480">
+<rect transform="rotate(180)" width="100" height="90" y="0" x="0" fill="&#10;&#9;&#9;&#9;&#9;#F472D0&#10;&#9;&#9;&#9;">
+<animate begin="0" dur="0.8999999999999999" to="90" from="0" attributeName="height" id="anim3"/>
+</rect>
+</svg>
+<text y="800" x="530">
+                Liczba płyt rock
+            </text>
+<svg overflow="visible" width="-200" height="-770" y="771" x="630">
+<rect transform="rotate(180)" width="100" height="180" y="0" x="0" fill="&#10;&#9;&#9;&#9;&#9;#76608A&#10;&#9;&#9;&#9;">
+<animate begin="0" dur="1.7999999999999998" to="180" from="0" attributeName="height" id="anim6"/>
+</rect>
+</svg>
+<text y="800" x="685">
+                Liczba płyt rap
+            </text>
+<svg overflow="visible" width="-200" height="-770" y="771" x="780">
+<rect transform="rotate(180)" width="100" height="180" y="0" x="0" fill="&#10;&#9;&#9;&#9;&#9; #E51400&#10;&#9;&#9;&#9;">
+<animate begin="0" dur="1.7999999999999998" to="180" from="0" attributeName="height" id="anim6"/>
+</rect>
+</svg>
+<text text-align="center" x="30" y="850">
+<tspan x="30">Cena całej kolekcji w PLN: 610.48</tspan>
+</text>
+<text text-align="center" x="30" y="900">
+<tspan x="30">Cena całej kolekcji w USD: 207.20</tspan>
+</text>
+<image width="100" height="100" xlink:href="stop.png" id="przyciskStopu" y="818" x="450"/>
+<image width="100" height="100" xlink:href="replay.png" id="przyciskReplay" y="818" x="750"/>
+<script type="text/javascript">
+			document.getElementById("przyciskReplay").onclick = function() {
+                var anims = document.querySelectorAll('[id^="anim"]');
+                for (i = 0; i &lt; anims.length; i++) {
+                    anims[i].beginElement();
+                }
+            }
+			
+			document.getElementById("przyciskStopu").onclick = function() {
+                var anims = document.querySelectorAll('[id^="anim"]');
+                for (i = 0; i &lt; anims.length; i++) {
+                    anims[i].endElement();
+                }
+            }
+		</script>
+</svg>
