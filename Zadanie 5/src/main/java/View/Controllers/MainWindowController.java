@@ -5,6 +5,7 @@ import Model.Genre;
 import Model.Member;
 import Serialization.Serialization;
 import Serialization.SerializationImpl;
+import View.Alert;
 import View.SpecificWindow;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -70,7 +71,7 @@ public class MainWindowController extends AbstractController implements Initiali
         columnFirstNameAndSurnameMember.setCellValueFactory(new PropertyValueFactory<>("firstNameAndSurname"));
     }
 
-    public void loadXmlFile() throws JAXBException {
+    public void loadXmlFile() {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setInitialDirectory(new File("src/main/resources/"));
         fileChooser.getExtensionFilters()
@@ -79,11 +80,15 @@ public class MainWindowController extends AbstractController implements Initiali
         if (file != null) {
             pathToXmlFile = file.getAbsolutePath();
             pathToFileLabel.setText(pathToXmlFile);
-            loadFromPath();
+            try {
+                loadFromPath();
+            } catch (Exception e) {
+                Alert.alert("Błąd", "Niepoprawny plik");
+            }
         }
     }
 
-    private void loadFromPath() throws JAXBException {
+    private void loadFromPath() {
         recordCollection = serialization.Deserialize(pathToXmlFile);
         genreObservableList = FXCollections.observableArrayList(recordCollection.getGenreList());
         refreshGenreTable();
