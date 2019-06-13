@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="441.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.AlbumWindowController">
+   <children>
+      <Label layoutX="38.0" layoutY="38.0" text="Nazwa Albumu:" />
+      <Label layoutX="36.0" layoutY="89.0" text="Wykonawca:" />
+      <Label layoutX="32.0" layoutY="264.0" text="Data wydania:" />
+      <Label layoutX="36.0" layoutY="206.0" text="Nagroda:" />
+      <Label layoutX="38.0" layoutY="145.0" text="Cena PLN:" />
+      <Label layoutX="223.0" layoutY="145.0" text="Cena USD:" />
+      <TextField fx:id="nameTextField" layoutX="144.0" layoutY="34.0" prefHeight="25.0" prefWidth="256.0" />
+      <TextField fx:id="bandTextField" layoutX="144.0" layoutY="85.0" prefHeight="25.0" prefWidth="256.0" />
+      <TextField fx:id="PLNTextField" layoutX="102.0" layoutY="141.0" prefHeight="25.0" prefWidth="111.0" />
+      <TextField fx:id="USDTextField" layoutX="289.0" layoutY="141.0" prefHeight="25.0" prefWidth="111.0" />
+      <ComboBox fx:id="awardComboBox" layoutX="143.0" layoutY="202.0" prefHeight="25.0" prefWidth="256.0" />
+      <TextField fx:id="dayTextField" layoutX="180.0" layoutY="260.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label layoutX="131.0" layoutY="264.0" text="dzień:" />
+      <Label layoutX="137.0" layoutY="345.0" text="rok:" />
+      <TextField fx:id="yearTextField" layoutX="180.0" layoutY="341.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label layoutX="122.0" layoutY="303.0" text="miesiąc:" />
+      <ComboBox fx:id="monthComboBox" layoutX="180.0" layoutY="299.0" prefHeight="25.0" prefWidth="165.0" />
+      <Button fx:id="cancelButton" layoutX="376.0" layoutY="402.0" mnemonicParsing="false" onAction="#cancelChanges" text="Anuluj" />
+      <Button fx:id="commitButton" layoutX="236.0" layoutY="402.0" mnemonicParsing="false" onAction="#commitChanges" prefHeight="25.0" prefWidth="120.0" text="Zapisz" />
+   </children>
+</AnchorPane>

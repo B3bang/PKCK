@@ -1,5 +1,6 @@
 package View.Controllers;
 
+import Model.Album;
 import Model.Genre;
 import Model.Member;
 import Model.RecordCollection;
@@ -10,6 +11,8 @@ public abstract class AbstractController {
     protected Genre returnedGenre;
 
     protected Member returnedMember;
+
+    protected Album returnAlbum;
 
     public RecordCollection getRecordCollection() {
         return recordCollection;
@@ -33,5 +36,13 @@ public abstract class AbstractController {
 
     public void setReturnedMember(Member returnedMember) {
         this.returnedMember = returnedMember;
+    }
+
+    public Album getReturnAlbum() {
+        return returnAlbum;
+    }
+
+    public void setReturnAlbum(Album returnAlbum) {
+        this.returnAlbum = returnAlbum;
     }
 }

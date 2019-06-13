@@ -191,4 +191,35 @@ public class MainWindowController extends AbstractController implements Initiali
             refreshMemberTable();
         }
     }
+
+    public void deleteAlbum() throws JAXBException, SAXException, IOException {
+        if (albumObservableList != null) {
+            Album album = albumsTable.getSelectionModel().getSelectedItem();
+            chosenGenre.getAlbumList().remove(album);
+            refreshAlbumsTable();
+        }
+    }
+
+    public void addAlbum() throws IOException, CloneNotSupportedException {
+        SpecificWindow window = new SpecificWindow("Dodaj nowy album",
+                SpecificWindow.ALBUM_WINDOW_TYPE, this);
+        if (chosenGenre != null) {
+            if (chosenGenre.getAlbumList() == null) {
+                chosenGenre.setAlbumList(new ArrayList<Album>());
+            }
+            chosenGenre.getAlbumList().add(returnAlbum);
+            returnAlbum = null;
+            refreshAlbumsTable();
+        }
+    }
+
+    public void editAlbum() throws IOException, CloneNotSupportedException {
+        returnAlbum = albumsTable.getSelectionModel().getSelectedItem();
+        SpecificWindow window = new SpecificWindow("Edytuj wybrany album",
+                SpecificWindow.ALBUM_WINDOW_TYPE, this);
+        if (chosenGenre != null) {
+            returnAlbum = null;
+            refreshAlbumsTable();
+        }
+    }
 }
