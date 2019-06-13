@@ -127,19 +127,22 @@ public class MainWindowController extends AbstractController implements Initiali
     }
 
     public void transform() {
+        try {
+            FileChooser fileChooser2 = new FileChooser();
+            fileChooser2.setInitialDirectory(new File("src/main/resources/"));
+            fileChooser2.getExtensionFilters()
+                    .add(new FileChooser.ExtensionFilter("XML File", "*.xml"));
+            File file2 = fileChooser2.showOpenDialog(null);
 
-        FileChooser fileChooser2 = new FileChooser();
-        fileChooser2.setInitialDirectory(new File("src/main/resources/"));
-        fileChooser2.getExtensionFilters()
-                .add(new FileChooser.ExtensionFilter("XML File", "*.xml"));
-        File file2 = fileChooser2.showOpenDialog(null);
-
-        FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("src/main/resources/"));
-        fileChooser.getExtensionFilters()
-                .add(new FileChooser.ExtensionFilter("XSL File", "*.xsl"));
-        File file = fileChooser.showOpenDialog(null);
-        transformation.transform(file2.getAbsolutePath(), file.getAbsolutePath(), new File("src/main/resources/output").getAbsolutePath());
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.setInitialDirectory(new File("src/main/resources/"));
+            fileChooser.getExtensionFilters()
+                    .add(new FileChooser.ExtensionFilter("XSL File", "*.xsl"));
+            File file = fileChooser.showOpenDialog(null);
+            transformation.transform(file2.getAbsolutePath(), file.getAbsolutePath(), new File("src/main/resources/output").getAbsolutePath());
+        } catch (Exception e) {
+            View.Alert.alert("Błąd", "Niepoprawne pliki");
+        }
     }
 
 
