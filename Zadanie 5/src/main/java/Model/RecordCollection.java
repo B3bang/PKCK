@@ -5,6 +5,7 @@ import org.simpleframework.xml.*;
 import java.util.ArrayList;
 
 @Root(name = "Płytoteka")
+@Namespace(reference="https://www.github.com/B3bang")
 public class RecordCollection {
     @Attribute(name = "schemaLocation")
     @Namespace(reference = "http://www.w3.org/2001/XMLSchema-instance", prefix = "xsd")

@@ -13,8 +13,7 @@ public class SerializationImpl implements Serialization {
     @Override
     public void Serialize(RecordCollection obj, String path) {
         try {
-            Strategy strategy = new CycleStrategy("zid","refzid");
-            Serializer serializer = new Persister(strategy, new Format("<?xml version='1.0' encoding='utf-8'?>"));
+            Serializer serializer = new Persister(new Format("<?xml version='1.0' encoding='utf-8'?>"));
 
             File file = new File(path);
             serializer.write(obj, file);
