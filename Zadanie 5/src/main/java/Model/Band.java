@@ -5,7 +5,7 @@ import org.simpleframework.xml.ElementList;
 
 import java.util.ArrayList;
 
-class Band {
+public class Band {
     @Attribute(name = "Wykonawca")
     private String Performer;
     @ElementList(name = "Członkowie", type = Member.class, entry = "Członek", required = false)

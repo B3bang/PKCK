@@ -2,7 +2,7 @@ package Model;
 
 import org.simpleframework.xml.Element;
 
-class Member {
+public class Member {
     @Element(name = "Imię-i-nazwisko")
     private String firstNameAndSurname;
 

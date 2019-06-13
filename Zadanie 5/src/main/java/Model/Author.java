@@ -3,7 +3,7 @@ package Model;
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Element;
 
-class Author {
+public class Author {
     @Attribute(name = "id")
     private String id;
     @Element(name = "Imię-i-nazwisko")

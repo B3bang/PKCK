@@ -6,7 +6,7 @@ import org.simpleframework.xml.ElementList;
 
 import java.util.ArrayList;
 
-class Album {
+public class Album {
     @Attribute(name = "Nazwa-albumu")
     private String albumName;
     @Element(name = "Zespół")

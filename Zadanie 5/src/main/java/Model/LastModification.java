@@ -2,7 +2,7 @@ package Model;
 
 import org.simpleframework.xml.Attribute;
 
-class LastModification {
+public class LastModification {
     @Attribute(name = "dzień")
     private int day;
     @Attribute(name = "miesiąc")

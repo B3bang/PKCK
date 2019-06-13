@@ -5,7 +5,7 @@ import org.simpleframework.xml.ElementList;
 
 import java.util.ArrayList;
 
-class Information {
+public class Information {
     @Element(name = "Nazwa")
     private String name;
     @ElementList(name = "Autorzy", type = Author.class, entry = "Autor")

@@ -5,7 +5,7 @@ import org.simpleframework.xml.ElementList;
 
 import java.util.ArrayList;
 
-class Genre {
+public class Genre {
     @Element(name = "Nazwa")
     private String genreName;
     @ElementList(name = "Albumy", type = Album.class, entry = "Album")
