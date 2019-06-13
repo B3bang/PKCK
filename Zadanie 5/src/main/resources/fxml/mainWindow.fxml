@@ -11,9 +11,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.MainWindowController">
    <children>
-      <TableView fx:id="genresTable" layoutX="14.0" layoutY="51.0" prefHeight="427.0" prefWidth="130.0">
+      <TableView fx:id="genresTable" layoutX="14.0" layoutY="51.0" onKeyPressed="#showArtists" onKeyReleased="#showArtists" onMouseClicked="#showArtists" prefHeight="427.0" prefWidth="130.0">
         <columns>
-          <TableColumn fx:id="columnGenreName" prefWidth="127.0" resizable="false" text="Gatunek" />
+          <TableColumn fx:id="columnGenreName" prefWidth="128.0" resizable="false" text="Gatunek" />
         </columns>
       </TableView>
       <Button fx:id="fileFinderButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadXmlFile" prefHeight="25.0" prefWidth="130.0" text="Otwórz" />
@@ -23,5 +23,19 @@
       <Button fx:id="addGenreButton" layoutX="14.0" layoutY="487.0" mnemonicParsing="false" onAction="#addGenre" prefHeight="25.0" prefWidth="130.0" text="Dodaj" />
       <Button fx:id="editGenreButton" layoutX="14.0" layoutY="522.0" mnemonicParsing="false" onAction="#editGenre" prefHeight="25.0" prefWidth="130.0" text="Zmień nazwę" />
       <Button fx:id="deleteGenreButton" layoutX="14.0" layoutY="555.0" mnemonicParsing="false" onAction="#deleteGenre" prefHeight="25.0" prefWidth="130.0" text="Usuń" />
+      <TableView fx:id="albumsTable" layoutX="152.0" layoutY="51.0" onKeyPressed="#showMembers" onKeyReleased="#showMembers" onMouseClicked="#showMembers" prefHeight="273.0" prefWidth="443.0">
+        <columns>
+          <TableColumn fx:id="columnAlbumTitle" prefWidth="132.0" text="Tytuł" />
+            <TableColumn fx:id="columnAlbumArtist" minWidth="0.0" prefWidth="132.0" text="Wykonawca" />
+        </columns>
+      </TableView>
+      <TableView fx:id="membersTable" layoutX="152.0" layoutY="335.0" prefHeight="183.0" prefWidth="443.0">
+        <columns>
+          <TableColumn fx:id="columnFirstNameAndSurnameMember" prefWidth="440.0" text="Lista członków" />
+        </columns>
+      </TableView>
+      <Button fx:id="deleteMemberButton" layoutX="520.0" layoutY="531.0" mnemonicParsing="false" onAction="#deleteMember" prefHeight="25.0" prefWidth="75.0" text="Usuń" />
+      <Button fx:id="editMemberButton" layoutX="436.0" layoutY="531.0" mnemonicParsing="false" onAction="#editMember" prefHeight="25.0" prefWidth="75.0" text="Edytuj" />
+      <Button fx:id="addMemberButton" layoutX="354.0" layoutY="531.0" mnemonicParsing="false" onAction="#addMember" prefHeight="25.0" prefWidth="75.0" text="Dodaj" />
    </children>
 </AnchorPane>

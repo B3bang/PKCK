@@ -1,7 +1,8 @@
 package View.Controllers;
 
+import Model.Album;
 import Model.Genre;
-import Model.RecordCollection;
+import Model.Member;
 import Serialization.Serialization;
 import Serialization.SerializationImpl;
 import View.SpecificWindow;
@@ -17,6 +18,7 @@ import javax.xml.bind.JAXBException;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class MainWindowController extends AbstractController implements Initializable {
@@ -32,11 +34,34 @@ public class MainWindowController extends AbstractController implements Initiali
 
     public TableColumn columnGenreName;
 
+    private Genre chosenGenre;
+
     private ObservableList<Genre> genreObservableList;
+
+    public TableView<Album> albumsTable;
+
+    public TableColumn columnAlbumTitle;
+
+    public TableColumn columnAlbumArtist;
+
+    private ObservableList<Album> albumObservableList;
+
+    private Album chosenAlbum;
+
+    public TableView<Member> membersTable;
+
+    public TableColumn columnFirstNameAndSurnameMember;
+
+    private ObservableList<Member> memberObservableList;
+
+    private Member chosenMember;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         columnGenreName.setCellValueFactory(new PropertyValueFactory<>("genreName"));
+        columnAlbumTitle.setCellValueFactory(new PropertyValueFactory<>("albumName"));
+        columnAlbumArtist.setCellValueFactory(new PropertyValueFactory<>("band.Performer"));
+        columnFirstNameAndSurnameMember.setCellValueFactory(new PropertyValueFactory<>("firstNameAndSurname"));
     }
 
     public void loadXmlFile() throws JAXBException {
@@ -64,6 +89,26 @@ public class MainWindowController extends AbstractController implements Initiali
         genresTable.refresh();
     }
 
+    private void refreshAlbumsTable() {
+        if (chosenGenre.getAlbumList() != null) {
+            albumObservableList = FXCollections.observableArrayList(chosenGenre.getAlbumList());
+        } else {
+            albumObservableList = FXCollections.observableArrayList(new ArrayList<Album>());
+        }
+        albumsTable.setItems(albumObservableList);
+        albumsTable.refresh();
+    }
+
+    private void refreshMemberTable() {
+        if (chosenAlbum.getBand().getMemberList() != null) {
+            memberObservableList = FXCollections.observableArrayList(chosenAlbum.getBand().getMemberList());
+        } else {
+            memberObservableList = FXCollections.observableArrayList(new ArrayList<Member>());
+        }
+        membersTable.setItems(memberObservableList);
+        membersTable.refresh();
+    }
+
     public void saveRecordCollection() throws JAXBException {
         serialization.Serialize(recordCollection, pathToXmlFile);
     }
@@ -82,11 +127,53 @@ public class MainWindowController extends AbstractController implements Initiali
         if (recordCollection != null) {
             recordCollection.getGenreList().add(returnedGenre);
             returnedGenre = null;
-            genresTable.refresh();
+            refreshGenreTable();
         }
     }
 
     public void editGenre() throws IOException, CloneNotSupportedException {
+        returnedGenre = genresTable.getSelectionModel().getSelectedItem();
+        SpecificWindow window = new SpecificWindow("Edytuj wybrany gatunek",
+                SpecificWindow.GENRE_WINDOW_TYPE, this);
+        if (recordCollection != null) {
+            returnedGenre = null;
+            genresTable.refresh();
+        }
+    }
+
+    public void showArtists() {
+        chosenGenre = genresTable.getSelectionModel().getSelectedItem();
+        if (chosenGenre != null) {
+            refreshAlbumsTable();
+        }
+    }
+
+    public void showMembers() {
+        chosenAlbum = albumsTable.getSelectionModel().getSelectedItem();
+        if (chosenAlbum != null) {
+            refreshMemberTable();
+        }
+    }
+
+    public void deleteMember() throws JAXBException, SAXException, IOException {
+        if (memberObservableList != null) {
+            Member member = membersTable.getSelectionModel().getSelectedItem();
+            chosenAlbum.getBand().getMemberList().remove(member);
+            refreshMemberTable();
+        }
+    }
+
+    public void addMember() throws IOException, CloneNotSupportedException {
+        SpecificWindow window = new SpecificWindow("Dodaj nowy gatunek",
+                SpecificWindow.GENRE_WINDOW_TYPE, this);
+        if (recordCollection != null) {
+            recordCollection.getGenreList().add(returnedGenre);
+            returnedGenre = null;
+            refreshGenreTable();
+        }
+    }
+
+    public void editMember() throws IOException, CloneNotSupportedException {
         returnedGenre = genresTable.getSelectionModel().getSelectedItem();
         SpecificWindow window = new SpecificWindow("Edytuj wybrany gatunek",
                 SpecificWindow.GENRE_WINDOW_TYPE, this);
