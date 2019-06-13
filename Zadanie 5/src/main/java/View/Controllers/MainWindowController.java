@@ -78,7 +78,7 @@ public class MainWindowController extends AbstractController implements Initiali
         columnFirstNameAndSurnameMember.setCellValueFactory(new PropertyValueFactory<>("firstNameAndSurname"));
     }
 
-    public void loadXmlFile() throws JAXBException {
+    public void loadXmlFile() {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setInitialDirectory(new File("src/main/resources/"));
         fileChooser.getExtensionFilters()
@@ -87,13 +87,18 @@ public class MainWindowController extends AbstractController implements Initiali
         if (file != null) {
             pathToXmlFile = file.getAbsolutePath();
             pathToFileLabel.setText(pathToXmlFile);
-            loadFromPath();
+            try {
+                loadFromPath();
+            } catch (Exception e) {
+                Alert alert = new Alert(Alert.AlertType.ERROR, "Niepoprawny plik", ButtonType.OK);
+                alert.showAndWait();
+            }
         }
     }
 
     public void loadXsdFile() {
         if(pathToXmlFile==null || pathToXmlFile.equals("")) {
-            Alert alert = new Alert(Alert.AlertType.NONE, "Najpierw otwórz XML", ButtonType.OK);
+            Alert alert = new Alert(javafx.scene.control.Alert.AlertType.NONE, "Najpierw otwórz XML", ButtonType.OK);
             alert.showAndWait();
         } else {
             Source xmlFile = new StreamSource(new File(pathToXmlFile));
@@ -120,7 +125,7 @@ public class MainWindowController extends AbstractController implements Initiali
         }
     }
 
-    private void loadFromPath() throws JAXBException {
+    private void loadFromPath() {
         recordCollection = serialization.Deserialize(pathToXmlFile);
         genreObservableList = FXCollections.observableArrayList(recordCollection.getGenreList());
         refreshGenreTable();
