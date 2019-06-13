@@ -19,7 +19,7 @@
          <Nazwa>METAL</Nazwa>
          <Albumy>
             <Album Nazwa-albumu="Kill'em All">
-               <Zespół Wykonawca="Metallica" id="met">
+               <Zespół Wykonawca="Metallica" zid="met">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
@@ -46,7 +46,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Ride the Lightning">
-               <Zespół refid="met"/>
+               <Zespół refzid="met"/>
                <Data-wydania dzień="27" miesiąc="lipca" rok="1984" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -55,7 +55,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Master of Puppets">
-               <Zespół refid="met"/>
+               <Zespół refzid="met"/>
                <Data-wydania dzień="03" miesiąc="marca" rok="1986" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -64,13 +64,13 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Countdown to Extinction">
-               <Zespół Wykonawca="Megadeth" id="meg">
+               <Zespół Wykonawca="Megadeth" zid="meg">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>Dave Mustaine</Imię-i-nazwisko>
                      </Członek>
                      <Członek>
-                        <Imię-i-nazwisko>David Ellefson</Imię-i-nazwisko>
+                        <Imię-i-nazwisko>Davzid Ellefson</Imię-i-nazwisko>
                      </Członek>
                      <Członek>
                         <Imię-i-nazwisko>Marty Friedman</Imię-i-nazwisko>
@@ -88,7 +88,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Rust in Peace">
-               <Zespół refid="meg"/>
+               <Zespół refzid="meg"/>
                <Data-wydania dzień="24" miesiąc="września" rok="1990" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -96,8 +96,8 @@
                   <Cena waluta="USD">8.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Paranoid">
-               <Zespół Wykonawca="Black Sabbath" id="bs">
+            <Album Nazwa-albumu="Paranozid">
+               <Zespół Wykonawca="Black Sabbath" zid="bs">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>Ozzy Osbourne</Imię-i-nazwisko>
@@ -118,7 +118,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Masters of Reality">
-               <Zespół refid="bs"/>
+               <Zespół refzid="bs"/>
                <Data-wydania dzień="21" miesiąc="lipca" rok="1971" />
                <Nagradzana nagroda="ZłotaPłyta" />
                <Ceny>
@@ -132,7 +132,7 @@
          <Nazwa>POP</Nazwa>
          <Albumy>
             <Album Nazwa-albumu="1989">
-               <Zespół Wykonawca="Taylor Swift" id="ts"/>
+               <Zespół Wykonawca="Taylor Swift" zid="ts"/>
                <Data-wydania dzień="27" miesiąc="października" rok="2014" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -141,7 +141,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Thriller">
-               <Zespół Wykonawca="Michael Jackson" id="mj"/>
+               <Zespół Wykonawca="Michael Jackson" zid="mj"/>
                <Data-wydania dzień="30" miesiąc="listopada" rok="1982" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -150,7 +150,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Bad">
-               <Zespół refid="mj" />
+               <Zespół refzid="mj" />
                <Data-wydania dzień="31" miesiąc="sierpnia" rok="1987" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -164,7 +164,7 @@
          <Nazwa>ROCK</Nazwa>
          <Albumy>
             <Album Nazwa-albumu="Foo Fighters">
-               <Zespół Wykonawca="Foo Fighters" id="ff">
+               <Zespół Wykonawca="Foo Fighters" zid="ff">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
@@ -191,7 +191,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Sonic Highways">
-               <Zespół refid="ff"/>
+               <Zespół refzid="ff"/>
                <Data-wydania dzień="10" miesiąc="listopada" rok="2014" />
                <Nagradzana nagroda="ZłotaPłyta" />
                <Ceny>
@@ -200,7 +200,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Concrete and Gold">
-               <Zespół refid="ff"/>
+               <Zespół refzid="ff"/>
                <Data-wydania dzień="15" miesiąc="września" rok="2017" />
                <Nagradzana nagroda="ZłotaPłyta" />
                <Ceny>
@@ -209,7 +209,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Queen">
-               <Zespół Wykonawca="Queen" id="Queen">
+               <Zespół Wykonawca="Queen" zid="Queen">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
@@ -233,7 +233,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="The Game">
-               <Zespół refid="Queen"/>
+               <Zespół refzid="Queen"/>
                <Data-wydania dzień="27" miesiąc="lipca" rok="1980" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -242,7 +242,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Innuendo">
-               <Zespół refid="Queen"/>
+               <Zespół refzid="Queen"/>
                <Data-wydania dzień="05" miesiąc="lutego" rok="1991" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -256,7 +256,7 @@
          <Nazwa>RAP</Nazwa>
          <Albumy>
             <Album Nazwa-albumu="The Slim Shady LP">
-               <Zespół Wykonawca="Eminem" id="Eminem">
+               <Zespół Wykonawca="Eminem" zid="Eminem">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
@@ -271,7 +271,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="The Eminem Show">
-               <Zespół refid="Eminem"/>
+               <Zespół refzid="Eminem"/>
                <Data-wydania dzień="26" miesiąc="maja" rok="2002" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -280,7 +280,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Revival">
-               <Zespół refid="Eminem"/>
+               <Zespół refzid="Eminem"/>
                <Data-wydania dzień="15" miesiąc="grudnia" rok="2017" />
                <Nagradzana nagroda="ZłotaPłyta" />
                <Ceny>
@@ -289,7 +289,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Kamikaze">
-               <Zespół refid="Eminem"/>
+               <Zespół refzid="Eminem"/>
                <Data-wydania dzień="31" miesiąc="sierpnia" rok="2018" />
                <Nagradzana nagroda="PlatynowaPłyta" />
                <Ceny>
@@ -298,7 +298,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="No Mercy, No Fear">
-               <Zespół Wykonawca="G-Unit" id="G-Unit">
+               <Zespół Wykonawca="G-Unit" zid="G-Unit">
                   <Członkowie>
                      <Członek>
                         <Imię-i-nazwisko>50 Cent</Imię-i-nazwisko>
@@ -322,7 +322,7 @@
                </Ceny>
             </Album>
             <Album Nazwa-albumu="God's Plan">
-               <Zespół refid="G-Unit"/>
+               <Zespół refzid="G-Unit"/>
                <Data-wydania dzień="01" miesiąc="listopada" rok="2002" />
                <Nagradzana nagroda="Brak" />
                <Ceny>

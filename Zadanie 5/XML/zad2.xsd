@@ -115,8 +115,8 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema"
 			<xs:element minOccurs="0" maxOccurs="unbounded" name="Członkowie" type="mojNamespace:Typ-Członkowie" />
 		</xs:sequence>
 		<xs:attribute name="Wykonawca" type="xs:string"/>
-		<xs:attribute name="id" type="xs:ID"></xs:attribute>
-		<xs:attribute name="refid" type="xs:IDREF"></xs:attribute>
+		<xs:attribute name="zid" type="xs:ID"/>
+		<xs:attribute name="refzid" type="xs:IDREF"/>
     </xs:complexType>
 
    <xs:complexType name="Typ-Członkowie">
