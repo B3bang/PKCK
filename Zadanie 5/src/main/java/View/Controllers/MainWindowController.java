@@ -44,6 +44,10 @@ public class MainWindowController extends AbstractController implements Initiali
 
     public TableColumn columnAlbumArtist;
 
+    public TableColumn columnAlbumDate;
+
+    public TableColumn columnAlbumAward;
+
     private ObservableList<Album> albumObservableList;
 
     private Album chosenAlbum;
@@ -60,7 +64,9 @@ public class MainWindowController extends AbstractController implements Initiali
     public void initialize(URL location, ResourceBundle resources) {
         columnGenreName.setCellValueFactory(new PropertyValueFactory<>("genreName"));
         columnAlbumTitle.setCellValueFactory(new PropertyValueFactory<>("albumName"));
-        columnAlbumArtist.setCellValueFactory(new PropertyValueFactory<>("band.Performer"));
+        columnAlbumArtist.setCellValueFactory(new PropertyValueFactory<>("formattedBand"));
+        columnAlbumDate.setCellValueFactory(new PropertyValueFactory<>("formattedDate"));
+        columnAlbumAward.setCellValueFactory(new PropertyValueFactory<>("formattedAward"));
         columnFirstNameAndSurnameMember.setCellValueFactory(new PropertyValueFactory<>("firstNameAndSurname"));
     }
 

@@ -15,7 +15,7 @@ public class Album {
     private ReleaseDate releaseDate;
     @Element(name = "Nagradzana")
     private AwardWinning awardWinning;
-    @ElementList(name ="Ceny", type = Price.class, entry = "Cena")
+    @ElementList(name = "Ceny", type = Price.class, entry = "Cena")
     private ArrayList<Price> prices;
 
     public String getAlbumName() {
@@ -56,5 +56,17 @@ public class Album {
 
     public void setPrices(ArrayList<Price> prices) {
         this.prices = prices;
+    }
+
+    public String getFormattedDate() {
+        return releaseDate.getDay() + " " + releaseDate.getMonth() + " " + releaseDate.getYear();
+    }
+
+    public String getFormattedBand() {
+        return band.getPerformer();
+    }
+
+    public String getFormattedAward() {
+        return awardWinning.getAward().toString();
     }
 }

@@ -23,19 +23,24 @@
       <Button fx:id="addGenreButton" layoutX="14.0" layoutY="487.0" mnemonicParsing="false" onAction="#addGenre" prefHeight="25.0" prefWidth="130.0" text="Dodaj" />
       <Button fx:id="editGenreButton" layoutX="14.0" layoutY="522.0" mnemonicParsing="false" onAction="#editGenre" prefHeight="25.0" prefWidth="130.0" text="Zmień nazwę" />
       <Button fx:id="deleteGenreButton" layoutX="14.0" layoutY="555.0" mnemonicParsing="false" onAction="#deleteGenre" prefHeight="25.0" prefWidth="130.0" text="Usuń" />
-      <TableView fx:id="albumsTable" layoutX="152.0" layoutY="51.0" onKeyPressed="#showMembers" onKeyReleased="#showMembers" onMouseClicked="#showMembers" prefHeight="273.0" prefWidth="443.0">
+      <TableView fx:id="albumsTable" layoutX="153.0" layoutY="72.0" onKeyPressed="#showMembers" onKeyReleased="#showMembers" onMouseClicked="#showMembers" prefHeight="273.0" prefWidth="641.0">
         <columns>
-          <TableColumn fx:id="columnAlbumTitle" prefWidth="132.0" text="Tytuł" />
-            <TableColumn fx:id="columnAlbumArtist" minWidth="0.0" prefWidth="132.0" text="Wykonawca" />
+          <TableColumn fx:id="columnAlbumTitle" prefWidth="160.0" resizable="false" text="Tytuł" />
+            <TableColumn fx:id="columnAlbumArtist" minWidth="0.0" prefWidth="179.0" resizable="false" text="Wykonawca" />
+            <TableColumn fx:id="columnAlbumDate" minWidth="0.0" prefWidth="180.0" resizable="false" text="Data wydania" />
+            <TableColumn fx:id="columnAlbumAward" minWidth="0.0" prefWidth="119.0" resizable="false" text="Nagroda" />
         </columns>
       </TableView>
-      <TableView fx:id="membersTable" layoutX="152.0" layoutY="335.0" prefHeight="183.0" prefWidth="443.0">
+      <TableView fx:id="membersTable" layoutX="152.0" layoutY="359.0" prefHeight="183.0" prefWidth="443.0">
         <columns>
           <TableColumn fx:id="columnFirstNameAndSurnameMember" prefWidth="440.0" text="Lista członków" />
         </columns>
       </TableView>
-      <Button fx:id="deleteMemberButton" layoutX="520.0" layoutY="531.0" mnemonicParsing="false" onAction="#deleteMember" prefHeight="25.0" prefWidth="75.0" text="Usuń" />
-      <Button fx:id="editMemberButton" layoutX="436.0" layoutY="531.0" mnemonicParsing="false" onAction="#editMember" prefHeight="25.0" prefWidth="75.0" text="Edytuj" />
-      <Button fx:id="addMemberButton" layoutX="354.0" layoutY="531.0" mnemonicParsing="false" onAction="#addMember" prefHeight="25.0" prefWidth="75.0" text="Dodaj" />
+      <Button fx:id="deleteMemberButton" layoutX="520.0" layoutY="555.0" mnemonicParsing="false" onAction="#deleteMember" prefHeight="25.0" prefWidth="75.0" text="Usuń" />
+      <Button fx:id="editMemberButton" layoutX="436.0" layoutY="555.0" mnemonicParsing="false" onAction="#editMember" prefHeight="25.0" prefWidth="75.0" text="Edytuj" />
+      <Button fx:id="addMemberButton" layoutX="354.0" layoutY="555.0" mnemonicParsing="false" onAction="#addMember" prefHeight="25.0" prefWidth="75.0" text="Dodaj" />
+      <Button fx:id="addAlbumButton" layoutX="544.0" layoutY="39.0" mnemonicParsing="false" onAction="#addMember" prefHeight="25.0" prefWidth="75.0" text="Dodaj" />
+      <Button fx:id="editAlbumButton" layoutX="627.0" layoutY="39.0" mnemonicParsing="false" onAction="#editMember" prefHeight="25.0" prefWidth="75.0" text="Edytuj" />
+      <Button fx:id="deleteAlbumButton" layoutX="711.0" layoutY="39.0" mnemonicParsing="false" onAction="#deleteMember" prefHeight="25.0" prefWidth="75.0" text="Usuń" />
    </children>
 </AnchorPane>

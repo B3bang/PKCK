@@ -4,13 +4,13 @@ import org.simpleframework.xml.Attribute;
 
 public class AwardWinning {
     @Attribute(name = "nagroda")
-    private String Award;
+    private Award Award;
 
-    public String getAward() {
+    public Model.Award getAward() {
         return Award;
     }
 
-    public void setAward(String award) {
+    public void setAward(Model.Award award) {
         Award = award;
     }
 }
