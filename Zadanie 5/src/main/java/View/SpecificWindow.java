@@ -12,6 +12,7 @@ import java.io.IOException;
 public class SpecificWindow {
 
     public static final String GENRE_WINDOW_TYPE = "/fxml/genreWindow.fxml";
+    public static final String MEMBER_WINDOW_TYPE = "/fxml/memberWindow.fxml";
 
     public SpecificWindow(String title, String windowType, AbstractController abstractController)
             throws IOException, CloneNotSupportedException {

@@ -137,7 +137,7 @@ public class MainWindowController extends AbstractController implements Initiali
                 SpecificWindow.GENRE_WINDOW_TYPE, this);
         if (recordCollection != null) {
             returnedGenre = null;
-            genresTable.refresh();
+            refreshGenreTable();
         }
     }
 
@@ -164,22 +164,25 @@ public class MainWindowController extends AbstractController implements Initiali
     }
 
     public void addMember() throws IOException, CloneNotSupportedException {
-        SpecificWindow window = new SpecificWindow("Dodaj nowy gatunek",
-                SpecificWindow.GENRE_WINDOW_TYPE, this);
-        if (recordCollection != null) {
-            recordCollection.getGenreList().add(returnedGenre);
-            returnedGenre = null;
-            refreshGenreTable();
+        SpecificWindow window = new SpecificWindow("Dodaj nowego członka",
+                SpecificWindow.MEMBER_WINDOW_TYPE, this);
+        if (chosenAlbum != null) {
+            if (chosenAlbum.getBand().getMemberList() == null) {
+                chosenAlbum.getBand().setMemberList(new ArrayList<Member>());
+            }
+            chosenAlbum.getBand().getMemberList().add(returnedMember);
+            returnedMember = null;
+            refreshMemberTable();
         }
     }
 
     public void editMember() throws IOException, CloneNotSupportedException {
-        returnedGenre = genresTable.getSelectionModel().getSelectedItem();
-        SpecificWindow window = new SpecificWindow("Edytuj wybrany gatunek",
-                SpecificWindow.GENRE_WINDOW_TYPE, this);
-        if (recordCollection != null) {
-            returnedGenre = null;
-            genresTable.refresh();
+        returnedMember = membersTable.getSelectionModel().getSelectedItem();
+        SpecificWindow window = new SpecificWindow("Edytuj wybranego członka",
+                SpecificWindow.MEMBER_WINDOW_TYPE, this);
+        if (chosenAlbum != null) {
+            returnedMember = null;
+            refreshMemberTable();
         }
     }
 }
