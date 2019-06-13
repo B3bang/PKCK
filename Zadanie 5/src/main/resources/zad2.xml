@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Płytoteka xmlns="https://www.github.com/B3bang"
-      xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" 
-      xsd:schemaLocation="https://www.github.com/B3bang zad2.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<Płytoteka xsd:schemaLocation="https://www.github.com/B3bang zad2.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance">
    <Informacje>
       <Nazwa>Płytoteka</Nazwa>
       <Autorzy>
@@ -12,13 +10,13 @@
             <Imię-i-nazwisko>Piotr Janicki</Imię-i-nazwisko>
          </Autor>
       </Autorzy>
-      <Ostatnia-modyfikacja dzień="28" miesiąc="marca" rok="2019" Autor="_207230" />
+      <Ostatnia-modyfikacja dzień="28" miesiąc="marca" rok="2019" Autor="_207230"/>
    </Informacje>
    <Gatunki-muzyki>
       <Gatunek-muzyki>
          <Nazwa>METAL</Nazwa>
          <Albumy>
-            <Album Nazwa-albumu="Kill'em All">
+            <Album Nazwa-albumu="Kill&apos;em All">
                <Zespół Wykonawca="Metallica">
                   <Członkowie>
                      <Członek>
@@ -38,8 +36,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="25" miesiąc="lipca" rok="1983" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="25" miesiąc="lipca" rok="1983"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">28.99</Cena>
                   <Cena waluta="USD">9.99</Cena>
@@ -65,8 +63,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="27" miesiąc="lipca" rok="1984" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="27" miesiąc="lipca" rok="1984"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">30.99</Cena>
                   <Cena waluta="USD">9.99</Cena>
@@ -92,8 +90,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="03" miesiąc="marca" rok="1986" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="3" miesiąc="marca" rok="1986"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">30.99</Cena>
                   <Cena waluta="USD">9.99</Cena>
@@ -116,8 +114,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="14" miesiąc="lipca" rok="1992" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="14" miesiąc="lipca" rok="1992"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">35.99</Cena>
                   <Cena waluta="USD">9.99</Cena>
@@ -140,8 +138,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="24" miesiąc="września" rok="1990" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="24" miesiąc="września" rok="1990"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">24.99</Cena>
                   <Cena waluta="USD">8.99</Cena>
@@ -161,8 +159,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="18" miesiąc="września" rok="1970" />
-               <Nagradzana nagroda="ZłotaPłyta" />
+               <Data-wydania dzień="18" miesiąc="września" rok="1970"/>
+               <Nagradzana nagroda="ZłotaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">27.99</Cena>
                   <Cena waluta="USD">8.99</Cena>
@@ -182,8 +180,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="21" miesiąc="lipca" rok="1971" />
-               <Nagradzana nagroda="ZłotaPłyta" />
+               <Data-wydania dzień="21" miesiąc="lipca" rok="1971"/>
+               <Nagradzana nagroda="ZłotaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">25.99</Cena>
                   <Cena waluta="USD">8.99</Cena>
@@ -195,30 +193,30 @@
          <Nazwa>POP</Nazwa>
          <Albumy>
             <Album Nazwa-albumu="1989">
-               <Zespół Wykonawca="Taylor Swift" />
-               <Data-wydania dzień="27" miesiąc="października" rok="2014" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Zespół Wykonawca="Taylor Swift"/>
+               <Data-wydania dzień="27" miesiąc="października" rok="2014"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">23.99</Cena>
                   <Cena waluta="USD">8.99</Cena>
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Thriller">
-               <Zespół Wykonawca="Michael Jackson" />
-               <Data-wydania dzień="30" miesiąc="listopada" rok="1982" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Zespół Wykonawca="Michael Jackson"/>
+               <Data-wydania dzień="30" miesiąc="listopada" rok="1982"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">29.98</Cena>
-                  <Cena waluta="USD">9.70</Cena>
+                  <Cena waluta="USD">9.7</Cena>
                </Ceny>
             </Album>
             <Album Nazwa-albumu="Bad">
-               <Zespół Wykonawca="Michael Jackson" />
-               <Data-wydania dzień="31" miesiąc="sierpnia" rok="1987" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Zespół Wykonawca="Michael Jackson"/>
+               <Data-wydania dzień="31" miesiąc="sierpnia" rok="1987"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
-                  <Cena waluta="PLN">33.70</Cena>
-                  <Cena waluta="USD">11.70</Cena>
+                  <Cena waluta="PLN">33.7</Cena>
+                  <Cena waluta="USD">11.7</Cena>
                </Ceny>
             </Album>
          </Albumy>
@@ -246,8 +244,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="07" miesiąc="lipca" rok="1995" />
-               <Nagradzana nagroda="ZłotaPłyta" />
+               <Data-wydania dzień="7" miesiąc="lipca" rok="1995"/>
+               <Nagradzana nagroda="ZłotaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">30.99</Cena>
                   <Cena waluta="USD">10.99</Cena>
@@ -273,8 +271,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="10" miesiąc="listopada" rok="2014" />
-               <Nagradzana nagroda="ZłotaPłyta" />
+               <Data-wydania dzień="10" miesiąc="listopada" rok="2014"/>
+               <Nagradzana nagroda="ZłotaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">32.99</Cena>
                   <Cena waluta="USD">12.99</Cena>
@@ -300,8 +298,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="15" miesiąc="września" rok="2017" />
-               <Nagradzana nagroda="ZłotaPłyta" />
+               <Data-wydania dzień="15" miesiąc="września" rok="2017"/>
+               <Nagradzana nagroda="ZłotaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">31.99</Cena>
                   <Cena waluta="USD">11.99</Cena>
@@ -324,8 +322,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="13" miesiąc="lipca" rok="1973" />
-               <Nagradzana nagroda="Brak" />
+               <Data-wydania dzień="13" miesiąc="lipca" rok="1973"/>
+               <Nagradzana nagroda="Brak"/>
                <Ceny>
                   <Cena waluta="PLN">29.99</Cena>
                   <Cena waluta="USD">9.99</Cena>
@@ -348,8 +346,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="27" miesiąc="lipca" rok="1980" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="27" miesiąc="lipca" rok="1980"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">29.99</Cena>
                   <Cena waluta="USD">9.99</Cena>
@@ -372,8 +370,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="05" miesiąc="lutego" rok="1991" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="5" miesiąc="lutego" rok="1991"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">22.99</Cena>
                   <Cena waluta="USD">7.99</Cena>
@@ -382,7 +380,7 @@
          </Albumy>
       </Gatunek-muzyki>
       <Gatunek-muzyki>
-         <Nazwa>RAP</Nazwa>
+         <Nazwa>RAPek</Nazwa>
          <Albumy>
             <Album Nazwa-albumu="The Slim Shady LP">
                <Zespół Wykonawca="Eminem">
@@ -392,8 +390,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="23" miesiąc="lutego" rok="1999" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="23" miesiąc="lutego" rok="1999"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">24.99</Cena>
                   <Cena waluta="USD">8.99</Cena>
@@ -407,8 +405,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="26" miesiąc="maja" rok="2002" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="26" miesiąc="maja" rok="2002"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">23.99</Cena>
                   <Cena waluta="USD">8.99</Cena>
@@ -422,8 +420,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="15" miesiąc="grudnia" rok="2017" />
-               <Nagradzana nagroda="ZłotaPłyta" />
+               <Data-wydania dzień="15" miesiąc="grudnia" rok="2017"/>
+               <Nagradzana nagroda="ZłotaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">35.99</Cena>
                   <Cena waluta="USD">10.99</Cena>
@@ -437,8 +435,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="31" miesiąc="sierpnia" rok="2018" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
+               <Data-wydania dzień="31" miesiąc="sierpnia" rok="2018"/>
+               <Nagradzana nagroda="PlatynowaPłyta"/>
                <Ceny>
                   <Cena waluta="PLN">20.99</Cena>
                   <Cena waluta="USD">6.99</Cena>
@@ -461,14 +459,14 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="01" miesiąc="sierpnia" rok="2002" />
-               <Nagradzana nagroda="Brak" />
+               <Data-wydania dzień="1" miesiąc="sierpnia" rok="2002"/>
+               <Nagradzana nagroda="Brak"/>
                <Ceny>
                   <Cena waluta="PLN">15.99</Cena>
                   <Cena waluta="USD">4.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="God's Plan">
+            <Album Nazwa-albumu="God&apos;s Plan">
                <Zespół Wykonawca="G-Unit">
                   <Członkowie>
                      <Członek>
@@ -485,8 +483,8 @@
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="01" miesiąc="listopada" rok="2002" />
-               <Nagradzana nagroda="Brak" />
+               <Data-wydania dzień="1" miesiąc="listopada" rok="2002"/>
+               <Nagradzana nagroda="Brak"/>
                <Ceny>
                   <Cena waluta="PLN">15.99</Cena>
                   <Cena waluta="USD">4.99</Cena>
