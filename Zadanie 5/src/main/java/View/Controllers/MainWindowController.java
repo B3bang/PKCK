@@ -3,8 +3,7 @@ package View.Controllers;
 import Model.Album;
 import Model.Genre;
 import Model.Member;
-import Serialization.Serialization;
-import Serialization.SerializationImpl;
+import Serialization.*;
 import View.SpecificWindow;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -29,6 +28,8 @@ import java.util.ResourceBundle;
 
 public class MainWindowController extends AbstractController implements Initializable {
     public Serialization serialization = new SerializationImpl();
+
+    public Transformation transformation = new TransformationImpl();
 
     private String pathToXmlFile;
 
@@ -97,7 +98,7 @@ public class MainWindowController extends AbstractController implements Initiali
     }
 
     public void loadXsdFile() {
-        if(pathToXmlFile==null || pathToXmlFile.equals("")) {
+        if (pathToXmlFile == null || pathToXmlFile.equals("")) {
             Alert alert = new Alert(javafx.scene.control.Alert.AlertType.NONE, "Najpierw otwórz XML", ButtonType.OK);
             alert.showAndWait();
         } else {
@@ -124,6 +125,23 @@ public class MainWindowController extends AbstractController implements Initiali
             }
         }
     }
+
+    public void transform() {
+
+        FileChooser fileChooser2 = new FileChooser();
+        fileChooser2.setInitialDirectory(new File("src/main/resources/"));
+        fileChooser2.getExtensionFilters()
+                .add(new FileChooser.ExtensionFilter("XML File", "*.xml"));
+        File file2 = fileChooser2.showOpenDialog(null);
+
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setInitialDirectory(new File("src/main/resources/"));
+        fileChooser.getExtensionFilters()
+                .add(new FileChooser.ExtensionFilter("XSL File", "*.xsl"));
+        File file = fileChooser.showOpenDialog(null);
+        transformation.transform(file2.getAbsolutePath(), file.getAbsolutePath(), new File("src/main/resources/output").getAbsolutePath());
+    }
+
 
     private void loadFromPath() {
         recordCollection = serialization.Deserialize(pathToXmlFile);
