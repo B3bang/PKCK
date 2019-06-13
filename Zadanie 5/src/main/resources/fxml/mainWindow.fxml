@@ -11,29 +11,17 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.MainWindowController">
    <children>
-      <Button fx:id="fileFinderButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadXmlFile" prefHeight="25.0" prefWidth="131.0" text="Otwórz" />
+      <TableView fx:id="genresTable" layoutX="14.0" layoutY="51.0" prefHeight="427.0" prefWidth="130.0">
+        <columns>
+          <TableColumn fx:id="columnGenreName" prefWidth="127.0" resizable="false" text="Gatunek" />
+        </columns>
+      </TableView>
+      <Button fx:id="fileFinderButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadXmlFile" prefHeight="25.0" prefWidth="130.0" text="Otwórz" />
       <Label layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="75.0" text="Wybrany Plik:" />
-      <TabPane layoutY="60.0" prefHeight="539.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
-        <tabs>
-          <Tab text="Gatunki">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="458.0" prefWidth="800.0">
-                     <children>
-                        <TableView fx:id="genresTable" prefHeight="427.0" prefWidth="800.0">
-                          <columns>
-                            <TableColumn fx:id="columnGenreName" prefWidth="800.0" resizable="false" text="Nazwa" />
-                          </columns>
-                        </TableView>
-                        <Button fx:id="addGenreButton" layoutX="14.0" layoutY="471.0" mnemonicParsing="false" onAction="#addGenre" prefHeight="25.0" prefWidth="90.0" text="Dodaj" />
-                        <Button fx:id="editGenreButton" layoutX="119.0" layoutY="471.0" mnemonicParsing="false" onAction="#editGenre" prefHeight="25.0" prefWidth="90.0" text="Zmień nazwę" />
-                        <Button fx:id="deleteGenreButton" layoutX="221.0" layoutY="471.0" mnemonicParsing="false" onAction="#deleteGenre" prefHeight="25.0" prefWidth="90.0" text="Usuń" />
-                     </children>
-                  </AnchorPane>
-            </content>
-          </Tab>
-        </tabs>
-      </TabPane>
       <Label fx:id="pathToFileLabel" layoutX="227.0" layoutY="14.0" prefHeight="25.0" prefWidth="404.0" />
       <Button fx:id="saveButton" layoutX="696.0" layoutY="14.0" mnemonicParsing="false" onAction="#saveRecordCollection" prefHeight="25.0" prefWidth="90.0" text="Zapisz" />
+      <Button fx:id="addGenreButton" layoutX="14.0" layoutY="487.0" mnemonicParsing="false" onAction="#addGenre" prefHeight="25.0" prefWidth="130.0" text="Dodaj" />
+      <Button fx:id="editGenreButton" layoutX="14.0" layoutY="522.0" mnemonicParsing="false" onAction="#editGenre" prefHeight="25.0" prefWidth="130.0" text="Zmień nazwę" />
+      <Button fx:id="deleteGenreButton" layoutX="14.0" layoutY="555.0" mnemonicParsing="false" onAction="#deleteGenre" prefHeight="25.0" prefWidth="130.0" text="Usuń" />
    </children>
 </AnchorPane>
