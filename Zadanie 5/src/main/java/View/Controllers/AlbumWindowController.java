@@ -1,12 +1,12 @@
 package View.Controllers;
 
-import Model.Album;
-import Model.Award;
-import Model.Month;
+import Model.*;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
-public class AlbumWindowController  extends SpecificController {
+import java.util.ArrayList;
+
+public class AlbumWindowController extends SpecificController {
     public TextField nameTextField;
     public TextField bandTextField;
     public TextField PLNTextField;
@@ -24,7 +24,33 @@ public class AlbumWindowController  extends SpecificController {
         } else {
             album = abstractController.getReturnAlbum();
         }
+        album.setAlbumName(nameTextField.getText());
 
+        if (album.getBand() == null) {
+            album.setBand(new Band());
+        }
+        album.getBand().setPerformer(bandTextField.getText());
+
+        if (album.getPrices() == null) {
+            album.setPrices(new ArrayList<Price>());
+            album.getPrices().add(new Price());
+            album.getPrices().add(new Price());
+            album.getPrices().get(0).setCurrency("PLN");
+            album.getPrices().get(1).setCurrency("USD");
+        }
+
+        album.getPrices().get(0).setPrice(Double.parseDouble(PLNTextField.getText()));
+        album.getPrices().get(1).setPrice(Double.parseDouble(USDTextField.getText()));
+        if (album.getReleaseDate() == null) {
+            album.setReleaseDate(new ReleaseDate());
+        }
+        album.getReleaseDate().setDay(Integer.parseInt(dayTextField.getText()));
+        album.getReleaseDate().setYear(Integer.parseInt(yearTextField.getText()));
+        album.getReleaseDate().setMonth(monthComboBox.getValue());
+        if(album.getAwardWinning() == null) {
+            album.setAwardWinning(new AwardWinning());
+        }
+        album.getAwardWinning().setAward(awardComboBox.getValue());
 
         abstractController.setReturnAlbum(album);
         closeWindow();
@@ -32,8 +58,17 @@ public class AlbumWindowController  extends SpecificController {
 
     @Override
     public void refresh() {
-        if(abstractController.getReturnAlbum() != null) {
-            //nameTextField.setText(abstractController.getReturnedMember().getGenreName());
+        awardComboBox.getItems().setAll(Award.values());
+        monthComboBox.getItems().setAll(Month.values());
+        if (abstractController.getReturnAlbum() != null) {
+            nameTextField.setText(abstractController.getReturnAlbum().getAlbumName());
+            bandTextField.setText(abstractController.getReturnAlbum().getBand().getPerformer());
+            PLNTextField.setText(Double.toString(abstractController.getReturnAlbum().getPrices().get(0).getPrice()));
+            USDTextField.setText(Double.toString(abstractController.getReturnAlbum().getPrices().get(1).getPrice()));
+            dayTextField.setText(Integer.toString(abstractController.getReturnAlbum().getReleaseDate().getDay()));
+            yearTextField.setText(Integer.toString(abstractController.getReturnAlbum().getReleaseDate().getYear()));
+            monthComboBox.getSelectionModel().select(abstractController.getReturnAlbum().getReleaseDate().getMonth());
+            awardComboBox.getSelectionModel().select(abstractController.getReturnAlbum().getAwardWinning().getAward());
         }
     }
 }
