@@ -1,333 +1,331 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Płytoteka xmlns="https://www.github.com/B3bang"
-      xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" 
-      xsd:schemaLocation="https://www.github.com/B3bang zad2.xsd">
-   <Informacje>
-      <Nazwa>Płytoteka</Nazwa>
-      <Autorzy>
-         <Autor id="_207230">
-            <Imię-i-nazwisko>Bartosz Goss</Imię-i-nazwisko>
+<?xml version='1.0' encoding='utf-8'?>
+<Płytoteka zid="_0" xsd:schemaLocation="https://www.github.com/B3bang zad2.xsd" xmlns="https://www.github.com/B3bang" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance">
+   <Informacje zid="_1">
+      <Nazwa zid="_2">Płytoteka</Nazwa>
+      <Autorzy zid="_3">
+         <Autor zid="_4" id="_207230">
+            <Imię-i-nazwisko zid="_5">Bartosz Goss</Imię-i-nazwisko>
          </Autor>
-         <Autor id="_210203">
-            <Imię-i-nazwisko>Piotr Janicki</Imię-i-nazwisko>
+         <Autor zid="_6" id="_210203">
+            <Imię-i-nazwisko zid="_7">Piotr Janicki</Imię-i-nazwisko>
          </Autor>
       </Autorzy>
-      <Ostatnia-modyfikacja dzień="28" miesiąc="marca" rok="2019" Autor="_207230" />
+      <Ostatnia-modyfikacja zid="_8" dzień="28" miesiąc="marca" rok="2019" Autor="_207230"/>
    </Informacje>
-   <Gatunki-muzyki>
-      <Gatunek-muzyki>
-         <Nazwa>METAL</Nazwa>
-         <Albumy>
-            <Album Nazwa-albumu="Kill'em All">
-               <Zespół Wykonawca="Metallica" zid="met">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>James Hetfield</Imię-i-nazwisko>
+   <Gatunki-muzyki zid="_9">
+      <Gatunek-muzyki zid="_10">
+         <Nazwa zid="_11">METAL</Nazwa>
+         <Albumy zid="_12">
+            <Album zid="_13" Nazwa-albumu="Kill&apos;em All">
+               <Zespół zid="_14" Wykonawca="Metallica">
+                  <Członkowie zid="_15">
+                     <Członek zid="_16">
+                        <Imię-i-nazwisko zid="_17">James Hetfield</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Kirk Hammet</Imię-i-nazwisko>
+                     <Członek zid="_18">
+                        <Imię-i-nazwisko zid="_19">Kirk Hammet</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Cliff Burton</Imię-i-nazwisko>
+                     <Członek zid="_20">
+                        <Imię-i-nazwisko zid="_21">Cliff Burton</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Lars Ulrich</Imię-i-nazwisko>
+                     <Członek zid="_22">
+                        <Imię-i-nazwisko zid="_23">Lars Ulrich</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Jason Newsted</Imię-i-nazwisko>
-                     </Członek>
-                  </Członkowie>
-               </Zespół>
-               <Data-wydania dzień="25" miesiąc="lipca" rok="1983" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">28.99</Cena>
-                  <Cena waluta="USD">9.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Ride the Lightning">
-               <Zespół refzid="met"/>
-               <Data-wydania dzień="27" miesiąc="lipca" rok="1984" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">30.99</Cena>
-                  <Cena waluta="USD">9.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Master of Puppets">
-               <Zespół refzid="met"/>
-               <Data-wydania dzień="03" miesiąc="marca" rok="1986" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">30.99</Cena>
-                  <Cena waluta="USD">9.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Countdown to Extinction">
-               <Zespół Wykonawca="Megadeth" zid="meg">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>Dave Mustaine</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Davzid Ellefson</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Marty Friedman</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Nick Menza</Imię-i-nazwisko>
+                     <Członek zid="_24">
+                        <Imię-i-nazwisko zid="_25">Jason Newsted</Imię-i-nazwisko>
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="14" miesiąc="lipca" rok="1992" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">35.99</Cena>
-                  <Cena waluta="USD">9.99</Cena>
+               <Data-wydania zid="_26" dzień="25" miesiąc="lipca" rok="1983"/>
+               <Nagradzana zid="_27" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_28">
+                  <Cena zid="_29" waluta="PLN">28.99</Cena>
+                  <Cena zid="_30" waluta="USD">9.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Rust in Peace">
-               <Zespół refzid="meg"/>
-               <Data-wydania dzień="24" miesiąc="września" rok="1990" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">24.99</Cena>
-                  <Cena waluta="USD">8.99</Cena>
+            <Album zid="_31" Nazwa-albumu="Ride the Lightning">
+               <Zespół refzid="_14"/>
+               <Data-wydania zid="_32" dzień="27" miesiąc="lipca" rok="1984"/>
+               <Nagradzana zid="_33" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_34">
+                  <Cena zid="_35" waluta="PLN">30.99</Cena>
+                  <Cena zid="_36" waluta="USD">9.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Paranozid">
-               <Zespół Wykonawca="Black Sabbath" zid="bs">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>Ozzy Osbourne</Imię-i-nazwisko>
+            <Album zid="_37" Nazwa-albumu="Master of Puppets">
+               <Zespół refzid="_14"/>
+               <Data-wydania zid="_38" dzień="3" miesiąc="marca" rok="1986"/>
+               <Nagradzana zid="_39" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_40">
+                  <Cena zid="_41" waluta="PLN">30.99</Cena>
+                  <Cena zid="_42" waluta="USD">9.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_43" Nazwa-albumu="Countdown to Extinction">
+               <Zespół zid="_44" Wykonawca="Megadeth">
+                  <Członkowie zid="_45">
+                     <Członek zid="_46">
+                        <Imię-i-nazwisko zid="_47">Dave Mustaine</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Tony Iommi</Imię-i-nazwisko>
+                     <Członek zid="_48">
+                        <Imię-i-nazwisko zid="_49">Davzid Ellefson</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Geezer Butler</Imię-i-nazwisko>
+                     <Członek zid="_50">
+                        <Imię-i-nazwisko zid="_51">Marty Friedman</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_52">
+                        <Imię-i-nazwisko zid="_53">Nick Menza</Imię-i-nazwisko>
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="18" miesiąc="września" rok="1970" />
-               <Nagradzana nagroda="ZłotaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">27.99</Cena>
-                  <Cena waluta="USD">8.99</Cena>
+               <Data-wydania zid="_54" dzień="14" miesiąc="lipca" rok="1992"/>
+               <Nagradzana zid="_55" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_56">
+                  <Cena zid="_57" waluta="PLN">35.99</Cena>
+                  <Cena zid="_58" waluta="USD">9.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Masters of Reality">
-               <Zespół refzid="bs"/>
-               <Data-wydania dzień="21" miesiąc="lipca" rok="1971" />
-               <Nagradzana nagroda="ZłotaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">25.99</Cena>
-                  <Cena waluta="USD">8.99</Cena>
+            <Album zid="_59" Nazwa-albumu="Rust in Peace">
+               <Zespół refzid="_44"/>
+               <Data-wydania zid="_60" dzień="24" miesiąc="września" rok="1990"/>
+               <Nagradzana zid="_61" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_62">
+                  <Cena zid="_63" waluta="PLN">24.99</Cena>
+                  <Cena zid="_64" waluta="USD">8.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_65" Nazwa-albumu="Paranozid">
+               <Zespół zid="_66" Wykonawca="Black Sabbath">
+                  <Członkowie zid="_67">
+                     <Członek zid="_68">
+                        <Imię-i-nazwisko zid="_69">Ozzy Osbourne</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_70">
+                        <Imię-i-nazwisko zid="_71">Tony Iommi</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_72">
+                        <Imię-i-nazwisko zid="_73">Geezer Butler</Imię-i-nazwisko>
+                     </Członek>
+                  </Członkowie>
+               </Zespół>
+               <Data-wydania zid="_74" dzień="18" miesiąc="września" rok="1970"/>
+               <Nagradzana zid="_75" nagroda="ZłotaPłyta"/>
+               <Ceny zid="_76">
+                  <Cena zid="_77" waluta="PLN">27.99</Cena>
+                  <Cena zid="_78" waluta="USD">8.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_79" Nazwa-albumu="Masters of Reality">
+               <Zespół refzid="_66"/>
+               <Data-wydania zid="_80" dzień="21" miesiąc="lipca" rok="1971"/>
+               <Nagradzana zid="_81" nagroda="ZłotaPłyta"/>
+               <Ceny zid="_82">
+                  <Cena zid="_83" waluta="PLN">25.99</Cena>
+                  <Cena zid="_84" waluta="USD">8.99</Cena>
                </Ceny>
             </Album>
          </Albumy>
       </Gatunek-muzyki>
-      <Gatunek-muzyki>
-         <Nazwa>POP</Nazwa>
-         <Albumy>
-            <Album Nazwa-albumu="1989">
-               <Zespół Wykonawca="Taylor Swift" zid="ts"/>
-               <Data-wydania dzień="27" miesiąc="października" rok="2014" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">23.99</Cena>
-                  <Cena waluta="USD">8.99</Cena>
+      <Gatunek-muzyki zid="_85">
+         <Nazwa zid="_86">POP</Nazwa>
+         <Albumy zid="_87">
+            <Album zid="_88" Nazwa-albumu="1989">
+               <Zespół zid="_89" Wykonawca="Taylor Swift"/>
+               <Data-wydania zid="_90" dzień="27" miesiąc="października" rok="2014"/>
+               <Nagradzana zid="_91" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_92">
+                  <Cena zid="_93" waluta="PLN">23.99</Cena>
+                  <Cena zid="_94" waluta="USD">8.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Thriller">
-               <Zespół Wykonawca="Michael Jackson" zid="mj"/>
-               <Data-wydania dzień="30" miesiąc="listopada" rok="1982" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">29.98</Cena>
-                  <Cena waluta="USD">9.70</Cena>
+            <Album zid="_95" Nazwa-albumu="Thriller">
+               <Zespół zid="_96" Wykonawca="Michael Jackson"/>
+               <Data-wydania zid="_97" dzień="30" miesiąc="listopada" rok="1982"/>
+               <Nagradzana zid="_98" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_99">
+                  <Cena zid="_100" waluta="PLN">29.98</Cena>
+                  <Cena zid="_101" waluta="USD">9.7</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Bad">
-               <Zespół refzid="mj" />
-               <Data-wydania dzień="31" miesiąc="sierpnia" rok="1987" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">33.70</Cena>
-                  <Cena waluta="USD">11.70</Cena>
-               </Ceny>
-            </Album>
-         </Albumy>
-      </Gatunek-muzyki>
-      <Gatunek-muzyki>
-         <Nazwa>ROCK</Nazwa>
-         <Albumy>
-            <Album Nazwa-albumu="Foo Fighters">
-               <Zespół Wykonawca="Foo Fighters" zid="ff">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>Dave Grohl</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Nate Mendel</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Pat Smear</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Taylor Hawkins</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Chris Shiflett</Imię-i-nazwisko>
-                     </Członek>
-                  </Członkowie>
-               </Zespół>
-               <Data-wydania dzień="07" miesiąc="lipca" rok="1995" />
-               <Nagradzana nagroda="ZłotaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">30.99</Cena>
-                  <Cena waluta="USD">10.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Sonic Highways">
-               <Zespół refzid="ff"/>
-               <Data-wydania dzień="10" miesiąc="listopada" rok="2014" />
-               <Nagradzana nagroda="ZłotaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">32.99</Cena>
-                  <Cena waluta="USD">12.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Concrete and Gold">
-               <Zespół refzid="ff"/>
-               <Data-wydania dzień="15" miesiąc="września" rok="2017" />
-               <Nagradzana nagroda="ZłotaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">31.99</Cena>
-                  <Cena waluta="USD">11.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Queen">
-               <Zespół Wykonawca="Queen" zid="Queen">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>Freddie Mercury</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Roger Taylor</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Brian May</Imię-i-nazwisko>
-                     </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>John Deacon</Imię-i-nazwisko>
-                     </Członek>
-                  </Członkowie>
-               </Zespół>
-               <Data-wydania dzień="13" miesiąc="lipca" rok="1973" />
-               <Nagradzana nagroda="Brak" />
-               <Ceny>
-                  <Cena waluta="PLN">29.99</Cena>
-                  <Cena waluta="USD">9.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="The Game">
-               <Zespół refzid="Queen"/>
-               <Data-wydania dzień="27" miesiąc="lipca" rok="1980" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">29.99</Cena>
-                  <Cena waluta="USD">9.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="Innuendo">
-               <Zespół refzid="Queen"/>
-               <Data-wydania dzień="05" miesiąc="lutego" rok="1991" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">22.99</Cena>
-                  <Cena waluta="USD">7.99</Cena>
+            <Album zid="_102" Nazwa-albumu="Bad">
+               <Zespół refzid="_96"/>
+               <Data-wydania zid="_103" dzień="31" miesiąc="sierpnia" rok="1987"/>
+               <Nagradzana zid="_104" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_105">
+                  <Cena zid="_106" waluta="PLN">33.7</Cena>
+                  <Cena zid="_107" waluta="USD">11.7</Cena>
                </Ceny>
             </Album>
          </Albumy>
       </Gatunek-muzyki>
-      <Gatunek-muzyki>
-         <Nazwa>RAP</Nazwa>
-         <Albumy>
-            <Album Nazwa-albumu="The Slim Shady LP">
-               <Zespół Wykonawca="Eminem" zid="Eminem">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>Marshall Mathers</Imię-i-nazwisko>
+      <Gatunek-muzyki zid="_108">
+         <Nazwa zid="_109">ROCK</Nazwa>
+         <Albumy zid="_110">
+            <Album zid="_111" Nazwa-albumu="Foo Fighters">
+               <Zespół zid="_112" Wykonawca="Foo Fighters">
+                  <Członkowie zid="_113">
+                     <Członek zid="_114">
+                        <Imię-i-nazwisko zid="_115">Dave Grohl</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_116">
+                        <Imię-i-nazwisko zid="_117">Nate Mendel</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_118">
+                        <Imię-i-nazwisko zid="_119">Pat Smear</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_120">
+                        <Imię-i-nazwisko zid="_121">Taylor Hawkins</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_122">
+                        <Imię-i-nazwisko zid="_123">Chris Shiflett</Imię-i-nazwisko>
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="23" miesiąc="lutego" rok="1999" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">24.99</Cena>
-                  <Cena waluta="USD">8.99</Cena>
+               <Data-wydania zid="_124" dzień="7" miesiąc="lipca" rok="1995"/>
+               <Nagradzana zid="_125" nagroda="ZłotaPłyta"/>
+               <Ceny zid="_126">
+                  <Cena zid="_127" waluta="PLN">30.99</Cena>
+                  <Cena zid="_128" waluta="USD">10.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="The Eminem Show">
-               <Zespół refzid="Eminem"/>
-               <Data-wydania dzień="26" miesiąc="maja" rok="2002" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">23.99</Cena>
-                  <Cena waluta="USD">8.99</Cena>
+            <Album zid="_129" Nazwa-albumu="Sonic Highways">
+               <Zespół refzid="_112"/>
+               <Data-wydania zid="_130" dzień="10" miesiąc="listopada" rok="2014"/>
+               <Nagradzana zid="_131" nagroda="ZłotaPłyta"/>
+               <Ceny zid="_132">
+                  <Cena zid="_133" waluta="PLN">32.99</Cena>
+                  <Cena zid="_134" waluta="USD">12.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Revival">
-               <Zespół refzid="Eminem"/>
-               <Data-wydania dzień="15" miesiąc="grudnia" rok="2017" />
-               <Nagradzana nagroda="ZłotaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">35.99</Cena>
-                  <Cena waluta="USD">10.99</Cena>
+            <Album zid="_135" Nazwa-albumu="Concrete and Gold">
+               <Zespół refzid="_112"/>
+               <Data-wydania zid="_136" dzień="15" miesiąc="września" rok="2017"/>
+               <Nagradzana zid="_137" nagroda="ZłotaPłyta"/>
+               <Ceny zid="_138">
+                  <Cena zid="_139" waluta="PLN">31.99</Cena>
+                  <Cena zid="_140" waluta="USD">11.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="Kamikaze">
-               <Zespół refzid="Eminem"/>
-               <Data-wydania dzień="31" miesiąc="sierpnia" rok="2018" />
-               <Nagradzana nagroda="PlatynowaPłyta" />
-               <Ceny>
-                  <Cena waluta="PLN">20.99</Cena>
-                  <Cena waluta="USD">6.99</Cena>
-               </Ceny>
-            </Album>
-            <Album Nazwa-albumu="No Mercy, No Fear">
-               <Zespół Wykonawca="G-Unit" zid="G-Unit">
-                  <Członkowie>
-                     <Członek>
-                        <Imię-i-nazwisko>50 Cent</Imię-i-nazwisko>
+            <Album zid="_141" Nazwa-albumu="Queen">
+               <Zespół zid="_142" Wykonawca="Queen">
+                  <Członkowie zid="_143">
+                     <Członek zid="_144">
+                        <Imię-i-nazwisko zid="_145">Freddie Mercury</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Tony Yayo</Imię-i-nazwisko>
+                     <Członek zid="_146">
+                        <Imię-i-nazwisko zid="_147">Roger Taylor</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Uncle Murda</Imię-i-nazwisko>
+                     <Członek zid="_148">
+                        <Imię-i-nazwisko zid="_149">Brian May</Imię-i-nazwisko>
                      </Członek>
-                     <Członek>
-                        <Imię-i-nazwisko>Lloyd Banks</Imię-i-nazwisko>
+                     <Członek zid="_150">
+                        <Imię-i-nazwisko zid="_151">John Deacon</Imię-i-nazwisko>
                      </Członek>
                   </Członkowie>
                </Zespół>
-               <Data-wydania dzień="01" miesiąc="sierpnia" rok="2002" />
-               <Nagradzana nagroda="Brak" />
-               <Ceny>
-                  <Cena waluta="PLN">15.99</Cena>
-                  <Cena waluta="USD">4.99</Cena>
+               <Data-wydania zid="_152" dzień="13" miesiąc="lipca" rok="1973"/>
+               <Nagradzana zid="_153" nagroda="Brak"/>
+               <Ceny zid="_154">
+                  <Cena zid="_155" waluta="PLN">29.99</Cena>
+                  <Cena zid="_156" waluta="USD">9.99</Cena>
                </Ceny>
             </Album>
-            <Album Nazwa-albumu="God's Plan">
-               <Zespół refzid="G-Unit"/>
-               <Data-wydania dzień="01" miesiąc="listopada" rok="2002" />
-               <Nagradzana nagroda="Brak" />
-               <Ceny>
-                  <Cena waluta="PLN">15.99</Cena>
-                  <Cena waluta="USD">4.99</Cena>
+            <Album zid="_157" Nazwa-albumu="The Game">
+               <Zespół refzid="_142"/>
+               <Data-wydania zid="_158" dzień="27" miesiąc="lipca" rok="1980"/>
+               <Nagradzana zid="_159" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_160">
+                  <Cena zid="_161" waluta="PLN">29.99</Cena>
+                  <Cena zid="_162" waluta="USD">9.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_163" Nazwa-albumu="Innuendo">
+               <Zespół refzid="_142"/>
+               <Data-wydania zid="_164" dzień="5" miesiąc="lutego" rok="1991"/>
+               <Nagradzana zid="_165" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_166">
+                  <Cena zid="_167" waluta="PLN">22.99</Cena>
+                  <Cena zid="_168" waluta="USD">7.99</Cena>
+               </Ceny>
+            </Album>
+         </Albumy>
+      </Gatunek-muzyki>
+      <Gatunek-muzyki zid="_169">
+         <Nazwa zid="_170">RAP</Nazwa>
+         <Albumy zid="_171">
+            <Album zid="_172" Nazwa-albumu="The Slim Shady LP">
+               <Zespół zid="_173" Wykonawca="Eminem">
+                  <Członkowie zid="_174">
+                     <Członek zid="_175">
+                        <Imię-i-nazwisko zid="_176">Marshall Mathers</Imię-i-nazwisko>
+                     </Członek>
+                  </Członkowie>
+               </Zespół>
+               <Data-wydania zid="_177" dzień="23" miesiąc="lutego" rok="1999"/>
+               <Nagradzana zid="_178" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_179">
+                  <Cena zid="_180" waluta="PLN">24.99</Cena>
+                  <Cena zid="_181" waluta="USD">8.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_182" Nazwa-albumu="The Eminem Show">
+               <Zespół refzid="_173"/>
+               <Data-wydania zid="_183" dzień="26" miesiąc="maja" rok="2002"/>
+               <Nagradzana zid="_184" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_185">
+                  <Cena zid="_186" waluta="PLN">23.99</Cena>
+                  <Cena zid="_187" waluta="USD">8.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_188" Nazwa-albumu="Revival">
+               <Zespół refzid="_173"/>
+               <Data-wydania zid="_189" dzień="15" miesiąc="grudnia" rok="2017"/>
+               <Nagradzana zid="_190" nagroda="ZłotaPłyta"/>
+               <Ceny zid="_191">
+                  <Cena zid="_192" waluta="PLN">35.99</Cena>
+                  <Cena zid="_193" waluta="USD">10.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_194" Nazwa-albumu="Kamikaze">
+               <Zespół refzid="_173"/>
+               <Data-wydania zid="_195" dzień="31" miesiąc="sierpnia" rok="2018"/>
+               <Nagradzana zid="_196" nagroda="PlatynowaPłyta"/>
+               <Ceny zid="_197">
+                  <Cena zid="_198" waluta="PLN">20.99</Cena>
+                  <Cena zid="_199" waluta="USD">6.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_200" Nazwa-albumu="No Mercy, No Fear">
+               <Zespół zid="_201" Wykonawca="G-Unit">
+                  <Członkowie zid="_202">
+                     <Członek zid="_203">
+                        <Imię-i-nazwisko zid="_204">50 Cent</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_205">
+                        <Imię-i-nazwisko zid="_206">Tony Yayo</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_207">
+                        <Imię-i-nazwisko zid="_208">Uncle Murda</Imię-i-nazwisko>
+                     </Członek>
+                     <Członek zid="_209">
+                        <Imię-i-nazwisko zid="_210">Lloyd Banks</Imię-i-nazwisko>
+                     </Członek>
+                  </Członkowie>
+               </Zespół>
+               <Data-wydania zid="_211" dzień="1" miesiąc="sierpnia" rok="2002"/>
+               <Nagradzana zid="_212" nagroda="Brak"/>
+               <Ceny zid="_213">
+                  <Cena zid="_214" waluta="PLN">15.99</Cena>
+                  <Cena zid="_215" waluta="USD">4.99</Cena>
+               </Ceny>
+            </Album>
+            <Album zid="_216" Nazwa-albumu="God&apos;s Plan">
+               <Zespół refzid="_201"/>
+               <Data-wydania zid="_217" dzień="1" miesiąc="listopada" rok="2002"/>
+               <Nagradzana zid="_218" nagroda="Brak"/>
+               <Ceny zid="_219">
+                  <Cena zid="_220" waluta="PLN">15.99</Cena>
+                  <Cena zid="_221" waluta="USD">4.99</Cena>
                </Ceny>
             </Album>
          </Albumy>
