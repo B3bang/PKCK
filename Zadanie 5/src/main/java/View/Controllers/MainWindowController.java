@@ -14,7 +14,13 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.FileChooser;
 import org.xml.sax.SAXException;
 
+import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBException;
+import javax.xml.transform.Source;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -27,6 +33,8 @@ public class MainWindowController extends AbstractController implements Initiali
     private String pathToXmlFile;
 
     public Button fileFinderButton;
+
+    public Button pickXSD;
 
     public Label pathToFileLabel;
 
@@ -80,6 +88,35 @@ public class MainWindowController extends AbstractController implements Initiali
             pathToXmlFile = file.getAbsolutePath();
             pathToFileLabel.setText(pathToXmlFile);
             loadFromPath();
+        }
+    }
+
+    public void loadXsdFile() {
+        if(pathToXmlFile==null || pathToXmlFile.equals("")) {
+            Alert alert = new Alert(Alert.AlertType.NONE, "Najpierw otwórz XML", ButtonType.OK);
+            alert.showAndWait();
+        } else {
+            Source xmlFile = new StreamSource(new File(pathToXmlFile));
+            SchemaFactory schemaFactory = SchemaFactory
+                    .newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+            try {
+                FileChooser fileChooser = new FileChooser();
+                fileChooser.setInitialDirectory(new File("src/main/resources/"));
+                fileChooser.getExtensionFilters()
+                        .add(new FileChooser.ExtensionFilter("XSD File", "*.xsd"));
+                File file = fileChooser.showOpenDialog(null);
+                Schema schema = schemaFactory.newSchema(file);
+                Validator validator = schema.newValidator();
+                validator.validate(xmlFile);
+                Alert alert = new Alert(Alert.AlertType.NONE, "Walidacja powiodła się", ButtonType.OK);
+                alert.showAndWait();
+            } catch (SAXException e) {
+                Alert alert = new Alert(Alert.AlertType.NONE, String.format("Walidacja nie powiodła się:\n %s", e.getMessage()), ButtonType.OK);
+                alert.showAndWait();
+            } catch (IOException e) {
+                Alert alert = new Alert(Alert.AlertType.NONE, "Nie można otworzyć pliku lub plik XML został usunięty", ButtonType.OK);
+                alert.showAndWait();
+            }
         }
     }
 
