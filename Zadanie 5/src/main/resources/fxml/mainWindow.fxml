@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.MainWindowController">
+   <children>
+      <TableView fx:id="genresTable" layoutX="14.0" layoutY="51.0" onKeyPressed="#showArtists" onKeyReleased="#showArtists" onMouseClicked="#showArtists" prefHeight="427.0" prefWidth="130.0">
+        <columns>
+          <TableColumn fx:id="columnGenreName" prefWidth="128.0" resizable="false" text="Gatunek" />
+        </columns>
+      </TableView>
+      <Button fx:id="fileFinderButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadXmlFile" prefHeight="25.0" prefWidth="130.0" text="Otwórz" />
+       <Button fx:id="pickXSD" layoutX="152.0" layoutY="39.0" mnemonicParsing="false" onAction="#loadXsdFile" text="Waliduj z XSD" />
+      <Label layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="75.0" text="Wybrany Plik:" />
+      <Label fx:id="pathToFileLabel" layoutX="227.0" layoutY="14.0" prefHeight="25.0" prefWidth="561.0" />
+      <Button fx:id="saveButton" layoutX="696.0" layoutY="555.0" mnemonicParsing="false" onAction="#saveRecordCollection" prefHeight="25.0" prefWidth="90.0" text="Zapisz" />
+      <Button fx:id="addGenreButton" layoutX="14.0" layoutY="487.0" mnemonicParsing="false" onAction="#addGenre" prefHeight="25.0" prefWidth="130.0" text="Dodaj" />
+      <Button fx:id="editGenreButton" layoutX="14.0" layoutY="522.0" mnemonicParsing="false" onAction="#editGenre" prefHeight="25.0" prefWidth="130.0" text="Zmień nazwę" />
+      <Button fx:id="deleteGenreButton" layoutX="14.0" layoutY="555.0" mnemonicParsing="false" onAction="#deleteGenre" prefHeight="25.0" prefWidth="130.0" text="Usuń" />
+      <TableView fx:id="albumsTable" layoutX="153.0" layoutY="72.0" onKeyPressed="#showMembers" onKeyReleased="#showMembers" onMouseClicked="#showMembers" prefHeight="273.0" prefWidth="641.0">
+        <columns>
+          <TableColumn fx:id="columnAlbumTitle" prefWidth="160.0" resizable="false" text="Tytuł" />
+            <TableColumn fx:id="columnAlbumArtist" minWidth="0.0" prefWidth="179.0" resizable="false" text="Wykonawca" />
+            <TableColumn fx:id="columnAlbumDate" minWidth="0.0" prefWidth="180.0" resizable="false" text="Data wydania" />
+            <TableColumn fx:id="columnAlbumAward" minWidth="0.0" prefWidth="119.0" resizable="false" text="Nagroda" />
+        </columns>
+      </TableView>
+      <TableView fx:id="membersTable" layoutX="152.0" layoutY="359.0" prefHeight="183.0" prefWidth="443.0">
+        <columns>
+          <TableColumn fx:id="columnFirstNameAndSurnameMember" prefWidth="440.0" text="Lista członków" />
+        </columns>
+      </TableView>
+      <Button fx:id="deleteMemberButton" layoutX="520.0" layoutY="555.0" mnemonicParsing="false" onAction="#deleteMember" prefHeight="25.0" prefWidth="75.0" text="Usuń" />
+      <Button fx:id="editMemberButton" layoutX="436.0" layoutY="555.0" mnemonicParsing="false" onAction="#editMember" prefHeight="25.0" prefWidth="75.0" text="Edytuj" />
+      <Button fx:id="addMemberButton" layoutX="354.0" layoutY="555.0" mnemonicParsing="false" onAction="#addMember" prefHeight="25.0" prefWidth="75.0" text="Dodaj" />
+      <Button fx:id="addAlbumButton" layoutX="544.0" layoutY="39.0" mnemonicParsing="false" onAction="#addAlbum" prefHeight="25.0" prefWidth="75.0" text="Dodaj" />
+      <Button fx:id="editAlbumButton" layoutX="627.0" layoutY="39.0" mnemonicParsing="false" onAction="#editAlbum" prefHeight="25.0" prefWidth="75.0" text="Edytuj" />
+      <Button fx:id="deleteAlbumButton" layoutX="711.0" layoutY="39.0" mnemonicParsing="false" onAction="#deleteAlbum" prefHeight="25.0" prefWidth="75.0" text="Usuń" />
+      <Button fx:id="transformationButton" layoutX="264.0" layoutY="39.0" mnemonicParsing="false" onAction="#transform" text="Transformacja" />
+   </children>
+</AnchorPane>
